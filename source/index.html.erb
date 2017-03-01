@@ -1,113 +1,63 @@
----
-title: Debug Politics
----
-
-<img class="logo" src="/images/logo.svg" alt="Debug Politics">
-
-<section id="intro">
+<div id="home-top" class="container-fluid">
+  <h1>Debug Politics</h1>
+  <p>Converting the tech community's frustration with politics into meaningful action</p>
   <p>
-    Debug Politics hosts events aimed at converting the tech community's frustration with politics into meaningful action. Let's use our talents as developers, designers, and technologists to find innovative ways to make a real difference.
+    <a href="http://www.debugpolitics.us14.list-manage.com/subscribe/post?u=b9b3405c6d0605a286b96d3d5&amp;id=8d0320fee5" class="btn btn-primary">Join us</a>
   </p>
+</div>
 
-  <p>
-    We’re not pretending that we have all the answers or that we can save the world with a single app, but we do feel that our community can contribute more to encourage positive change.
-  </p>
+<div class="container" id="about-dp">
+  <h2 class="underlined-heading">About Debug Politics</h2>
 
-  <p>
-    Let’s roll up our sleeves and get to work.
-  </p>
-
-  <a class="button" href="signup.html">Join Us</a>
-</section>
-
-<section>
-  <h2>Upcoming Events</h2>
-
-  <ul>
-    <li><a href="https://www.eventbrite.com/e/debug-politics-1st-la-hackathon-tickets-29491780710">
-      Los Angeles Hackathon &middot; Apr 28th-30th
-    </a></li>
-  </ul>
-</section>
-
-<section>
-  <h2>Press</h2>
-
-  <ul>
-    <li><a href="https://video.vice.com/en_us/video/how-silicon-valley-is-trying-to-debug-politics/58e2bf5709b5a7c11b3cfeac">
-      VICE &middot; How Silicon Valley Is Trying to 'Debug' Politics
-    </a></li>
-    <li><a href="https://www.fastcodesign.com/3067366/can-politics-be-debugged">
-      Fast Company &middot; Can Politics be Debugged?
-    </a></li>
-    <li><a href="http://time.com/4663419/silicon-valley-donald-trump-apps-technology/">
-      TIME &middot; Silicon Valley Thinks Politics is Broken
-    </a></li>
-    <li><a href="https://techcrunch.com/2016/11/18/debut-politics/">
-      TechCrunch &middot; Debug Politics says it’s time for the tech industry to help solve political problems
-    </a></li>
-    <li><a href="https://www.ft.com/content/8ecc63ea-b4f5-11e6-ba85-95d1533d9a62">
-      Financial Times &middot; 'Hackathon' attempts to stem proliferation of fake news
-    </a></li>
-      <li><a href="http://mashable.com/2017/01/16/debug-politics-hackathon-nyc/#quKEU3_jBaq1">
-      Mashable &middot; Engineers try to hack their way to a solution to 2016 politics
-    </a></li>
-    <li><a href="https://news.vice.com/story/liberal-coders-are-competing-to-take-out-the-technology-that-helped-elect-trump">
-      VICE &middot; Debugging Politics
-    </a></li>
-    <li><a href="http://avc.com/2017/01/talking-to-others/">
-      Fred Wilson &middot; Talking To Others
-    </a></li>
-    <li><a href="http://www.huffingtonpost.com/entry/582e22f7e4b0eaa5f14d4248?timestamp=1479418839791">
-      Huffington Post &middot; Nonpartisan Hackathons Go Viral Following 2016 Election
-    </a></li>
-    <li><a href="http://www.sfchronicle.com/politics/article/The-Resistance-to-Trump-is-rooted-in-the-Bay-Area-10786957.php">
-      San Francisco Chronicle &middot; The Resistance to Trump is rooted in the Bay Area
-    </li></a>
-    <li><a href="http://avc.com/2016/12/debug-politics-nyc/">
-      AVC &middot; Debug Politics NYC
-    </li></a>
-    <li><a href="http://hoodline.com/2016/11/sf-tech-workers-start-building-solutions-to-common-political-complaints">
-      Hoodline &middot; SF Tech Workers Start Building Solutions To Common Political Complaints
-    </a></li>
-    <li><a href="http://www.huffingtonpost.com/entry/5841b3fde4b0cf3f6455894f">
-      Huffington Post &middot; First Products Out of Debug Politics Tackle Fake News and Civic Engagement
-    </a></li>
-  </ul>
-</section>
-
-<section>
-  <h2>Sponsors</h2>
-  <a href="http://500.co/" target="_blank">
-    <div class="sponsor-logo" id="five-hundred">
+  <div class="row">
+    <div class="col-sm-7 push-sm-5" id="about-dp-desc">
+      <p>
+        Debug Politics hosts events aimed at converting the tech community's frustration with politics into meaningful action. Let's use our talents as developers, designers, and technologists to find innovative ways to make a real difference.
+      </p>
+      <p>
+        We’re not pretending that we have all the answers or that we can save the world with a single app, but we do feel that our community can contribute much more to encourage positive change.
+      </p>
     </div>
-  </a>
-  <a href="https://casper.com/" target="_blank">
-    <div class="sponsor-logo" id="casper">
+    <div class="col-sm-5 pull-sm-7" id="aboud-dp-image">
+      <img src="/images/about-dp.png" class="img-fluid" alt="Debug Politics Participants sitting around a table">
     </div>
-  </a>
-  <a href="https://www.mongodb.com/" target="_blank">
-    <div class="sponsor-logo" id="mongodb">
-    </div>
-  </a>
-  <a href="https://www.twilio.com/" target="_blank">
-    <div class="sponsor-logo" id="twilio">
-    </div>
-  </a>
-</section>
+  </div>
+</div>
 
-<footer>
-  <section>
-    <p>
-      <a href="mailto:hello@debugpolitics.com">hello@debugpolitics.com</a>
-    </p>
+<%= partial "partials/upcoming_events", locals: { only_last: true } %>
 
-    <p class="social">
-      <a href="https://www.twitter.com/debugpolitics">
-        <i class="fa fa-twitter"></i>
-      </a>
-      <a href="https://www.facebook.com/debugpolitics"><i class="fa fa-facebook"></i></a>
-      <a href="https://www.instagram.com/debugpolitics"><i class="fa fa-instagram"></i></a>
-    </p>
-  </section>
-</footer>
+<div class="container" id="coverage">
+  <h2 class="underlined-heading">Coverage</h2>
+  <%= partial "partials/coverage" %>
+</div>
+
+
+<div class="container-fluid" id="sponsors">
+  <h2 class="underlined-heading">Sponsors</h2>
+
+  <div class="container" id="sp-logos">
+    <div class="row">
+      <div class="col-md col-6">
+        <a href="https://www.twilio.com/" target="_blank">
+          <div id="twilio" class="sp-logo"></div>
+        </a>
+      </div>
+      <div class="col-md col-6">
+        <a href="https://500.co/" target="_blank">
+          <div id="five-hundred" class="sp-logo"></div>
+        </a>
+      </div>
+      <div class="col-md col-6" >
+        <a href="https://casper.com/" target="_blank">
+          <div id="casper" class="sp-logo"></div>
+        </a>
+      </div>
+      <div class="col-md col-6">
+        <a href="https://www.mongodb.com/" target="_blank">
+         <div id="mongodb" class="sp-logo"></div>
+        </a>
+      </div>
+    </div>
+    <p>We are always looking for more sponsors. <a class="gray-link" href="mailto:hello@debugpolitics.com">Become one today!</a></p>
+  </div>
+</div>
