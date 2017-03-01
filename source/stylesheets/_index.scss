@@ -1,0 +1,25 @@
+.index {
+  .sponsor-logo {
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 30%;
+    height: 100px;
+    margin: 0 5%;
+  }
+
+  #five-hundred {
+    background-image: url('/images/sponsor_500.png');
+  }
+  #casper {
+    background-image: url('/images/sponsor_casper.png');
+  }
+  #mongodb {
+    background-image: url('/images/sponsor_mongodb.png');
+  }
+  #twilio {
+    background-image: url('/images/sponsor_twilio.png');
+  }
+}
