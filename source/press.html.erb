@@ -5,7 +5,127 @@ title: "Press"
 <div class="container">
   <h1 class="underlined-heading"><%= current_page.data.title %></h1>
 
-  <p>
-    More to come...
-  </p>
+  <div class="row">
+    <div class="col-sm-5">
+      <img src="/images/press/press.png" class="img-fluid">
+    </div>
+
+    <div class="col-sm-7">
+      <h3>Can Politics Be Debugged?</h3>
+
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua...
+      </p>
+
+      <p>
+        <a href="#" class="btn btn-primary">Read more</a>
+      </p>
+    </div>
+  </div>
+
+  <hr class="divider">
+
+  <h2 class="underlined-heading">All Coverage</h2>
+
+  <div class="row">
+    <%
+      [
+        {
+          publication: 'VICE',
+          title: 'Debugging Politics',
+          href: 'https://news.vice.com/story/liberal-coders-are-competing-to-take-out-the-technology-that-helped-elect-trump',
+        },
+        {
+          publication: 'Fast Company',
+          title: 'Can Politics be Debugged?',
+          href: 'https://www.fastcodesign.com/3067366/can-politics-be-debugged',
+        },
+        {
+          publication: 'TIME',
+          title: 'Silicon Valley Thinks Politics is Broken',
+          href: 'http://time.com/4663419/silicon-valley-donald-trump-apps-technology/',
+        },
+        {
+          publication: 'TechCrunch',
+          title: 'Debug Politics says it’s time for the tech industry to help solve political problems',
+          href: 'https://techcrunch.com/2016/11/18/debut-politics/',
+        },
+        {
+          publication: 'Financial Times',
+          title: '‘Hackathon’ attempts to stem proliferation of fake news',
+          href: 'https://www.ft.com/content/8ecc63ea-b4f5-11e6-ba85-95d1533d9a62',
+        },
+        {
+          publication: 'Mashable',
+          title: 'Engineers try to hack their way to a solution to 2016 politics',
+          href: 'http://mashable.com/2017/01/16/debug-politics-hackathon-nyc/#quKEU3_jBaq1',
+        },
+        {
+          publication: 'Fred Wilson',
+          title: 'Talking To Others',
+          href: 'http://avc.com/2017/01/talking-to-others/',
+        },
+        {
+          publication: 'Huffington Post',
+          title: 'Nonpartisan Hackathons Go Viral Following 2016 Election',
+          href: 'http://www.huffingtonpost.com/entry/582e22f7e4b0eaa5f14d4248?timestamp=1479418839791',
+        },
+        {
+          publication: 'San Francisco Chronicle',
+          title: 'The Resistance to Trump is rooted in the Bay Area',
+          href: 'http://www.sfchronicle.com/politics/article/The-Resistance-to-Trump-is-rooted-in-the-Bay-Area-10786957.php',
+        },
+        {
+          publication: 'AVC',
+          title: 'Debug Politics NYC',
+          href: 'http://avc.com/2016/12/debug-politics-nyc/',
+        },
+        {
+          publication: 'Hoodline',
+          title: 'SF Tech Workers Start Building Solutions To Common Political Complaints',
+          href: 'http://hoodline.com/2016/11/sf-tech-workers-start-building-solutions-to-common-political-complaints',
+        },
+        {
+          publication: 'Huffington Post',
+          title: 'First Products Out of Debug Politics Tackle Fake News and Civic Engagement',
+          href: 'http://www.huffingtonpost.com/entry/5841b3fde4b0cf3f6455894f',
+        }
+      ].each do |press|
+    %>
+      <div class="col-md-4 col-sm-6 text-center">
+        <p class="font-weight-bold">
+          <a href="<%= press[:href] %>"><%= press[:publication] %></a>
+        </p>
+
+        <p>
+          <%= press[:title] %>
+        </p>
+      </div>
+    <% end %>
+  </div>
+
+  <h2 class="underlined-heading">Media Resources</h2>
+
+  <div class="row">
+    <div class="col-sm-6">
+      <div class="text-center">
+        <a href="#">
+          <img src="/images/press/camera.png" height="56">
+
+          Media kit
+        </a>
+      </div>
+    </div>
+
+    <div class="col-sm-6">
+      <div class="text-center">
+        <a href="#">
+          <img src="/images/press/envelope.png" height="56">
+
+          Contact us
+        </a>
+      </div>
+    </div>
+  </div>
 </div>
