@@ -1,15 +1,17 @@
-h2.underlined {
-  color: rgba(101, 87, 87, 0.67);
-  margin-bottom: 1em;
+.underlined-heading {
+  color: rgb(183, 183, 183);
+  margin: 2em 0;
+  text-align: center;
 }
 
-h2.underlined:after{
+.underlined-heading:after {
   background: none repeat scroll 0 0 #ED2E2E;
-  bottom: -5px;
+  bottom: -.4em;
   content: "";
   display: block;
   height: 3px;
   position: relative;
-  width: 12%;
-  left: 44%;
+  width: 60px;
+  left: 50%;
+  margin-left: -30px;
 }
