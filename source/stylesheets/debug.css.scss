@@ -2,6 +2,7 @@ $dp-red:        #ED2E2E;
 $dp-light-red:  #BA2323;
 $dp-dark-gray:  #5A5A5A;
 $dp-light-gray: #B5B5B5;
+$dp-dark-blue:  #004E87;
 
 @font-face {
   font-family: outage;
@@ -32,6 +33,7 @@ a:hover {
 
 body {
   font-family: 'Open Sans', sans-serif;
+  border-top: 4px solid $dp-dark-blue;
 }
 
 @import 'header';
@@ -39,6 +41,7 @@ body {
 
 @import 'headings';
 @import 'dividers';
+@import 'buttons';
 
 @import 'index';
 @import 'events';
