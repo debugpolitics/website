@@ -33,6 +33,10 @@ a {
     text-decoration: none;
     border-bottom: 1px solid $dp-red;
   }
+
+  &.no-underline-on-hover {
+    border-bottom: none;
+  }
 }
 
 body {
