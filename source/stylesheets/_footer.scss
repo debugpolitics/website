@@ -26,9 +26,36 @@ footer .social-icon {
   font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
   border-radius: 0 6px 6px 0;
-  height: 44px;
+  height: 24px;
 }
 
 button:hover{
   background: $dp-light-red;
+}
+
+#mc_embed_signup {
+  margin-top: -5px;
+}
+
+footer .col-lg {
+  padding-bottom: 20px;
+}
+
+@media (max-width: 991px) {
+    footer {
+      text-align: center;
+    }
+
+    footer h4 {
+      margin-bottom: 0px;
+    }
+
+    #mc_embed_signup {
+      margin-top: 0px;
+    }
+
+    footer .social-icon {
+      padding-right: 15px;
+      padding-left: 15px;
+    }
 }
