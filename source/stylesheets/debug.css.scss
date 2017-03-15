@@ -30,6 +30,10 @@ a:hover {
   color: $dp-dark-gray;
 }
 
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
 @import 'header';
 @import 'footer';
 
