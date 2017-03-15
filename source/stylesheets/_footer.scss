@@ -1,0 +1,61 @@
+footer {
+  font-size: 18px;
+  font-family: opensans-regular;
+}
+
+footer h4 {
+  font-family: opensans-semibold;
+  font-size: 16px;
+  padding-bottom: 12px;
+}
+
+footer .social-icon {
+  font-size: 26px;
+  color: $dp-light-gray;
+  padding-right: 30px;
+}
+
+.btn {
+  background: #ED2E2E;
+  padding: 10px 20px;
+  color: #fff;
+  border: 0;
+  display: inline-block;
+  width: 113px;
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  border-radius: 0 6px 6px 0;
+  height: 24px;
+}
+
+button:hover{
+  background: $dp-light-red;
+}
+
+#mc_embed_signup {
+  margin-top: -5px;
+}
+
+footer .col-lg {
+  padding-bottom: 20px;
+}
+
+@media (max-width: 991px) {
+    footer {
+      text-align: center;
+    }
+
+    footer h4 {
+      margin-bottom: 0px;
+    }
+
+    #mc_embed_signup {
+      margin-top: 0px;
+    }
+
+    footer .social-icon {
+      padding-right: 15px;
+      padding-left: 15px;
+    }
+}
