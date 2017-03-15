@@ -1,3 +1,35 @@
+$dp-red:        #ED2E2E;
+$dp-light-red:  #BA2323;
+$dp-dark-gray:  #5A5A5A;
+$dp-light-gray: #B5B5B5;
+
+@font-face {
+  font-family: outage;
+  src: url('/fonts/Outage.ttf');
+}
+
+@font-face {
+  font-family: opensans-regular;
+  src: url('/fonts/OpenSans-Regular.ttf');
+}
+
+@font-face {
+  font-family: opensans-semibold;
+  src: url('/fonts/OpenSans-Semibold.ttf');
+}
+
+* {
+  color: $dp-dark-gray;
+}
+
+a {
+  color: $dp-dark-gray;
+}
+
+a:hover {
+  color: $dp-dark-gray;
+}
+
 @import 'header';
 @import 'footer';
 
@@ -7,8 +39,3 @@
 @import 'index';
 @import 'events';
 @import 'press';
-
-@font-face {
-  font-family: outage;
-  src: url('/fonts/Outage.ttf');
-}
