@@ -1,7 +1,9 @@
-$dp-red:        #ED2E2E;
-$dp-light-red:  #BA2323;
-$dp-dark-gray:  #5A5A5A;
-$dp-light-gray: #B5B5B5;
+$dp-red:               #ED2E2E;
+$dp-light-red:         #BA2323;
+$dp-dark-gray:         #5A5A5A;
+$dp-light-gray:        #B5B5B5;
+$dp-accent-gray:       #E5E5E5;
+$dp-dark-blue:         #004E87;
 
 @font-face {
   font-family: outage;
@@ -23,11 +25,25 @@ $dp-light-gray: #B5B5B5;
 }
 
 a {
-  color: $dp-dark-gray;
+  color: inherit;
+  font-weight: 800;
+
+  &:hover {
+    color: inherit;
+    text-decoration: none;
+    border-bottom: 1px solid $dp-red;
+  }
+
+  &.no-underline-on-hover {
+    border-bottom: none;
+  }
 }
 
-a:hover {
-  color: $dp-dark-gray;
+body {
+  font-family: 'Open Sans', sans-serif;
+  border-top: 4px solid $dp-dark-blue;
+  font-size: 18px;
+  line-height: 1.5;
 }
 
 @import 'header';
@@ -35,6 +51,7 @@ a:hover {
 
 @import 'headings';
 @import 'dividers';
+@import 'buttons';
 
 @import 'index';
 @import 'events';

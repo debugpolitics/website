@@ -1,3 +1,18 @@
+h1, h2, h3, h4, h5, h6 {
+  font-size: 1em;
+  line-height: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
 .underlined-heading {
   color: rgb(183, 183, 183);
   margin: 2em 0;
