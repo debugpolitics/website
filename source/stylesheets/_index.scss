@@ -30,4 +30,49 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  text-align: center;
+  color: white;
+
+  h1 {
+    text-transform: uppercase;
+    padding-top: 146px;
+    font-family: outage;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+  }
+
+  p {
+    color: white;
+    font-family: opensans-semibold;
+  }
+
+  .btn-primary {
+    width: 173px;
+    font-size: 14px;
+  }
+}
+
+.dp-event {
+  height: 380px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  p {
+    text-align: center;
+    color: white;
+    text-family: opensans-bold;
+  }
+
+  .event-date {
+    padding-top: 148px;
+    margin-bottom: 0px;
+  }
+
+  .event-name {
+    font-size: 44px;
+  }
+}
+
+#la-event {
+  background-image: url('/images/la.png');
 }

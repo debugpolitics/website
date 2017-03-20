@@ -20,6 +20,11 @@ $dp-dark-blue:         #004E87;
   src: url('/fonts/OpenSans-Semibold.ttf');
 }
 
+@font-face {
+  font-family: opensans-bold;
+  src: url('/fonts/OpenSans-Bold.ttf');
+}
+
 * {
   color: $dp-dark-gray;
 }
