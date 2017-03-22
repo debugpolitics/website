@@ -25,6 +25,11 @@ $dp-dark-blue:         #004E87;
   src: url('/fonts/OpenSans-Bold.ttf');
 }
 
+@font-face {
+  font-family: opensans-light;
+  src: url('/fonts/OpenSans-Light.ttf');
+}
+
 * {
   color: $dp-dark-gray;
 }
@@ -49,6 +54,11 @@ body {
   border-top: 4px solid $dp-dark-blue;
   font-size: 18px;
   line-height: 1.5;
+}
+
+p {
+  font-family: opensans-light;
+  font-size: 18px;
 }
 
 @import 'header';
