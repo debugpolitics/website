@@ -1,28 +1,28 @@
-.index {
-  .sponsor-logo {
-    background-size:contain;
-    background-repeat: no-repeat;
-    background-position: center center;
-    display: inline-block;
-    box-sizing: border-box;
-    width: 30%;
-    height: 100px;
-    margin: 0 5%;
-  }
+// .index {
+  // .sponsor-logo {
+  //   background-size:contain;
+  //   background-repeat: no-repeat;
+  //   background-position: center center;
+  //   display: inline-block;
+  //   box-sizing: border-box;
+  //   width: 30%;
+  //   height: 100px;
+  //   margin: 0 5%;
+  // }
 
-  #five-hundred {
-    background-image: url('/images/sponsor_500.png');
-  }
-  #casper {
-    background-image: url('/images/sponsor_casper.png');
-  }
-  #mongodb {
-    background-image: url('/images/sponsor_mongodb.png');
-  }
-  #twilio {
-    background-image: url('/images/sponsor_twilio.png');
-  }
-}
+  // #five-hundred {
+  //   background-image: url('/images/sponsor_500.png');
+  // }
+  // #casper {
+  //   background-image: url('/images/sponsor_casper.png');
+  // }
+  // #mongodb {
+  //   background-image: url('/images/sponsor_mongodb.png');
+  // }
+  // #twilio {
+  //   background-image: url('/images/sponsor_twilio.png');
+  // }
+// }
 
 #home-top {
   background: url('/images/home-top-bg.png');
@@ -54,6 +54,10 @@
   }
 }
 
+#about-dp-desc {
+  padding-left: 50px;
+}
+
 .dp-event {
   height: 380px;
   background-size: cover;
@@ -79,3 +83,47 @@
 #la-event {
   background-image: url('/images/la.png');
 }
+
+#sponsors {
+  background-color: $dp-background-gray;
+  padding-top: 2px;
+  padding-bottom: 44px;
+  text-align: center;
+
+  a {
+    border-bottom: 1px solid $dp-light-gray;
+  }
+
+  p {
+    padding-top: 50px;
+  }
+
+  .sp-logo {
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 30%;
+    height: 100px;
+    margin: 0 5%;
+  }
+
+  #five-hundred {
+    background-image: url('/images/sponsor_500.png');
+  }
+  
+  #casper {
+    background-image: url('/images/sponsor_casper.png');
+  }
+  
+  #mongodb {
+    background-image: url('/images/sponsor_mongodb.png');
+  }
+  
+  #twilio {
+    background-image: url('/images/sponsor_twilio.png');
+  }
+}
+
+
