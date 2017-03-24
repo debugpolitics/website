@@ -6,7 +6,7 @@ title: "Home"
   <h1>Debug Politics</h1>
   <p>Converting the tech community's frustration with politics into meaningful action</p>
   <p>
-    <a href="#" class="btn btn-primary">Join us</a>
+    <a href="http://www.debugpolitics.us14.list-manage.com/subscribe/post?u=b9b3405c6d0605a286b96d3d5&amp;id=8d0320fee5" class="btn btn-primary">Join us</a>
   </p>
 </div>
 
@@ -14,17 +14,16 @@ title: "Home"
   <h2 class="underlined-heading">About Debug Politics</h2>
 
   <div class="row">
-    <div class="col-sm-5">
-      <img src="/images/about-dp.png" class="img-fluid" alt="Debug Politics Participants sitting around a table">
-    </div>
-
-    <div class="col-sm-7">
+    <div class="col-sm-7 push-sm-5" id="about-dp-desc">
       <p>
         Debug Politics hosts events aimed at converting the tech community's frustration with politics into meaningful action. Let's use our talents as developers, designers, and technologists to find innovative ways to make a real difference.
       </p>
       <p>
         We’re not pretending that we have all the answers or that we can save the world with a single app, but we do feel that our community can contribute much more to encourage positive change.
       </p>
+    </div>
+    <div class="col-sm-5 pull-sm-7" id="aboud-dp-image">
+      <img src="/images/about-dp.png" class="img-fluid" alt="Debug Politics Participants sitting around a table">
     </div>
   </div>
 </div>
@@ -39,9 +38,20 @@ title: "Home"
 
 <div class="container" id="coverage">
   <h2 class="underlined-heading">Coverage</h2>
+  <%= partial "partials/coverage" %>
 </div>
 
 
-<div class="container" id="sponsors">
+<div class="container-fluid" id="sponsors">
   <h2 class="underlined-heading">Sponsors</h2>
+
+  <div class="container" id="sp-logos">
+    <div class="row">
+      <div class="col sp-logo" id="twilio"></div>
+      <div class="col sp-logo" id="five-hundred"></div>
+      <div class="col sp-logo" id="casper"></div>
+      <div class="col sp-logo" id="mongodb"></div>
+    </div>
+    <p>We are always looking for more sponsors. <a href="mailto:hello@debugpolitics.com">Become one today!</a></p>
+  </div>
 </div>
