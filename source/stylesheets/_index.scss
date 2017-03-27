@@ -99,3 +99,36 @@
 }
 
 
+/**
+ * Responsive
+ */
+@media (max-width: 991px) {
+  #home-top {
+    height: 328px;
+
+    h1 {
+      text-transform: uppercase;
+      padding-top: 78px;
+      font-size: 30px;
+    }
+
+    p {
+      color: white;
+      font-family: opensans-semibold;
+      font-size: 18px;
+    }
+  }
+
+  .dp-event {
+    height: 190px;
+
+    .event-date {
+      padding-top: 67px;
+      margin-bottom: 0px;
+    }
+
+    .event-name {
+      font-size: 24px;
+    }
+  }
+}
