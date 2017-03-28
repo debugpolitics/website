@@ -2,24 +2,27 @@
 title: "Press"
 ---
 
-<div class="container">
+<div class="container" id="press-page">
   <h1 class="underlined-heading"><%= current_page.data.title %></h1>
 
   <div class="row">
-    <div class="col-sm-5">
+    <% featured_article = {
+        publication: 'Fast Company',
+        title: 'Can Politics Be Debugged?',
+        description: "Debug Politics hosts events aimed at converting the tech community's frustration with politics into meaningful action. Let's use our talents as developers, designers, and…",
+        href: 'https://www.fastcodesign.com/3067366/can-politics-be-debugged'
+      } %>
+
+    <div class="col-sm-5" id="featured-article-image">
       <img src="/images/press/press.png" class="img-fluid">
     </div>
 
     <div class="col-sm-7">
-      <h3>Can Politics Be Debugged?</h3>
-
+      <h3><%= featured_article[:title] %></h3>
+      <p><%= featured_article[:publication] %></p>
+      <p><%= featured_article[:description] %></p>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua...
-      </p>
-
-      <p>
-        <a href="#" class="btn btn-primary">Read more</a>
+        <a href="<%= featured_article[:href] %>" class="btn btn-primary" target="_blank">Read more</a>
       </p>
     </div>
   </div>
@@ -29,6 +32,8 @@ title: "Press"
   <h2 class="underlined-heading">All Coverage</h2>
 
   <%= partial "partials/coverage" %>
+  
+  <hr class="divider">
 
   <h2 class="underlined-heading">Media Resources</h2>
 
