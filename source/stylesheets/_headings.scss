@@ -1,16 +1,16 @@
 h1, h2, h3, h4, h5, h6 {
-  font-size: 1em;
   line-height: inherit;
   margin: 0;
   padding: 0;
+  font-family: opensans-bold;
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 32px;
 }
 
 h2 {
-  font-size: 1.5em;
+  font-size: 22px;
 }
 
 .underlined-heading {
@@ -25,8 +25,8 @@ h2 {
   content: "";
   display: block;
   height: 3px;
-  position: relative;
-  width: 60px;
-  left: 50%;
-  margin-left: -30px;
+  width: 148px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:16px;
 }

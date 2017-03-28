@@ -4,6 +4,7 @@ $dp-dark-gray:         #5A5A5A;
 $dp-light-gray:        #B5B5B5;
 $dp-accent-gray:       #E5E5E5;
 $dp-dark-blue:         #004E87;
+$dp-background-gray:   #F8F8F8;
 
 @font-face {
   font-family: outage;
@@ -18,6 +19,16 @@ $dp-dark-blue:         #004E87;
 @font-face {
   font-family: opensans-semibold;
   src: url('/fonts/OpenSans-Semibold.ttf');
+}
+
+@font-face {
+  font-family: opensans-bold;
+  src: url('/fonts/OpenSans-Bold.ttf');
+}
+
+@font-face {
+  font-family: opensans-light;
+  src: url('/fonts/OpenSans-Light.ttf');
 }
 
 * {
@@ -44,6 +55,15 @@ body {
   border-top: 4px solid $dp-dark-blue;
   font-size: 18px;
   line-height: 1.5;
+}
+
+p {
+  font-family: opensans-light;
+  font-size: 18px;
+}
+
+footer {
+  padding-top: 40px;
 }
 
 @import 'header';
