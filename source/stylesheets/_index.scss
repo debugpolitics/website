@@ -32,32 +32,6 @@
   padding-left: 50px;
 }
 
-.dp-event {
-  height: 380px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-
-  p {
-    text-align: center;
-    color: white;
-    text-family: opensans-bold;
-  }
-
-  .event-date {
-    padding-top: 148px;
-    margin-bottom: 0px;
-  }
-
-  .event-name {
-    font-size: 44px;
-  }
-}
-
-#la-event {
-  background-image: url('/images/la.png');
-}
-
 #sponsors {
   background-color: $dp-background-gray;
   padding-top: 2px;
@@ -116,19 +90,6 @@
       color: white;
       font-family: opensans-semibold;
       font-size: 18px;
-    }
-  }
-
-  .dp-event {
-    height: 190px;
-
-    .event-date {
-      padding-top: 67px;
-      margin-bottom: 0px;
-    }
-
-    .event-name {
-      font-size: 24px;
     }
   }
 }

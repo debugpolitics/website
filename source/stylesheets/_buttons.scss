@@ -13,4 +13,15 @@
       background-color: $dp-light-red;
     }
   }
+
+  &.btn-secondary {
+    color: $dp-red;
+    border-color: white;
+    background-color: white;
+
+    &:hover{
+      border-color: $dp-light-gray; // TODO
+      background-color: $dp-light-gray;
+    }
+  }
 }

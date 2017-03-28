@@ -1,40 +1,58 @@
-.events {
-  // Styles for the Events page go here...
+.dp-event {
+  height: 380px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 64px;
+
+  p {
+    text-align: center;
+    color: white;
+    text-family: opensans-bold;
+  }
+
+  .event-date {
+    padding-top: 120px;
+    margin-bottom: 0px;
+  }
+
+  .event-name {
+    font-size: 44px;
+  }
+
+  .btn-secondary {
+    width: 120px;
+    font-size: 18px;
+    line-height: 34px;
+  }
 }
 
-.event-image-wrapper {
-  position: relative;
-  width: 100%;
-  color: white;
-  h1 {
-    position: absolute;
-    top: 35%;
-    left: 0;
-    width: 100%;
-  }
-  h3 {
-    position: absolute;
-    top: 30%;
-    left: 0;
-    width: 100%;
-  }
-  img {
-    width: 600px;
-    height: auto;
-  }
-  a {
-    background-color: white;
-    width: 100px;
-    border-radius: 5px;
-    position: absolute;
-    top: 60%;
-    left: 41%;
-    font-size: 15px;
-    line-height: 40px;
-    height: 40px;
-  }
-  .rsvp {
-    color: $dp-red;
-    font-weight: 800;
+#la-event {
+  background-image: url('/images/la.png');
+}
+
+#boston-event {
+  background-image: url('/images/boston.png');
+}
+
+#seattle-event {
+  background-image: url('/images/seattle.png');
+}
+
+/**
+ * Responsive
+ */
+@media (max-width: 991px) {
+  .dp-event {
+    height: 190px;
+
+    .event-date {
+      padding-top: 67px;
+      margin-bottom: 0px;
+    }
+
+    .event-name {
+      font-size: 24px;
+    }
   }
 }
