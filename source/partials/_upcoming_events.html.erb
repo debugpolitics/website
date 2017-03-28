@@ -1,0 +1,35 @@
+<% 
+  events = [
+    {
+      location: "Los Angeles",
+      date: "Apr 28th-30th",
+      href: "https://www.eventbrite.com/e/debug-politics-1st-la-hackathon-tickets-29491780710",
+      id: 'la',
+    },
+    {
+      location: "Seattle",
+      date: "TBD",
+      href: "https://www.eventbrite.com/e/debug-politics-1st-la-hackathon-tickets-29491780710",
+      id: 'seattle'
+    },
+    {
+      location: "Boston",
+      date: "TBD",
+      href: "https://www.eventbrite.com/e/debug-politics-1st-la-hackathon-tickets-29491780710",
+      id: 'boston'
+    }
+  ]
+
+  events = [events[0]] if only_last
+%>
+
+<div class="container" id="upcoming-events">
+  <h2 class="underlined-heading">Upcoming Events</h2>
+  <% events.each do |event| %>
+    <div class="dp-event" id="<%= event[:id] %>-event">
+      <p class="event-date"><%= event[:date] %></p>
+      <p class="event-name"><%= event[:location] %> Hackathon</p>
+      <p><a href="<%= event[:href] %>" class="btn btn-secondary">RSVP</a></p>
+    </div>
+  <% end %>
+</div>

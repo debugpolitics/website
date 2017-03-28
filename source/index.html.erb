@@ -28,13 +28,7 @@ title: "Home"
   </div>
 </div>
 
-<div class="container" id="upcoming-events">
-  <h2 class="underlined-heading">Upcoming Events</h2>
-  <div class="dp-event" id="la-event">
-    <p class="event-date">Apr 28th-30th</p>
-    <p class="event-name">Los Angeles Hackathon</p>
-  </div>
-</div>
+<%= partial "partials/upcoming_events", locals: { only_last: true } %>
 
 <div class="container" id="coverage">
   <h2 class="underlined-heading">Coverage</h2>
