@@ -7,16 +7,14 @@
       id: 'la',
     },
     {
-      location: "Seattle",
-      date: "TBD",
-      href: "https://www.eventbrite.com/e/debug-politics-1st-la-hackathon-tickets-29491780710",
-      id: 'seattle'
+      location: "Boston",
+      date: "Oct 13th-15th",
+      id: 'boston'
     },
     {
-      location: "Boston",
+      location: "Seattle",
       date: "TBD",
-      href: "https://www.eventbrite.com/e/debug-politics-1st-la-hackathon-tickets-29491780710",
-      id: 'boston'
+      id: 'seattle'
     }
   ]
 
@@ -29,7 +27,9 @@
     <div class="dp-event" id="<%= event[:id] %>-event">
       <p class="event-date"><%= event[:date] %></p>
       <p class="event-name"><%= event[:location] %> Hackathon</p>
+      <% if event[:href] %>
       <p><a href="<%= event[:href] %>" class="btn btn-secondary">RSVP</a></p>
+      <% end %>
     </div>
   <% end %>
 </div>
