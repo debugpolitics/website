@@ -7,7 +7,7 @@
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Use title if it's in the page YAML frontmatter -->
-    <title><%= current_page.data.title || "Debug Politics" %></title>
+    <title><%= (current_page.data.title.nil?) ? "Debug Politics" : current_page.data.title + " - Debug Politics" %></title>
 
     <meta name="description" content="Debug Politics is a hackathon for anyone dissatisfied with the 2016 election cycle. Transform your dissatisfaction into a unique idea. Let's use our talents as developers, designers, and technologists to find innovative ways to make a real difference.">
 
