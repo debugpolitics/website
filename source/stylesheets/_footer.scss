@@ -1,0 +1,47 @@
+footer {
+  font-size: 18px;
+  font-family: opensans-regular;
+
+  h4 {
+    font-family: opensans-semibold;
+    font-size: 16px;
+    padding-bottom: 0px;
+  }
+
+   .social-icon {
+    font-size: 26px;
+    color: $dp-light-gray;
+    padding-right: 30px;
+  }
+
+  .col-lg {
+    padding-bottom: 20px;
+  }
+
+  p {
+    padding-top: 12px;
+  }
+}
+
+#mc_embed_signup {
+  margin-top: 8px;
+}
+
+@media (max-width: 991px) {
+  footer {
+    text-align: center;
+
+    h4 {
+      margin-bottom: 0px;
+    }
+
+    .social-icon {
+      padding-right: 15px;
+      padding-left: 15px;
+    }
+
+    p {
+      padding-top: 4px;
+    }
+  }
+}

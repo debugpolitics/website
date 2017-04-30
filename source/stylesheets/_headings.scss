@@ -1,0 +1,33 @@
+h1, h2, h3, h4, h5, h6 {
+  line-height: inherit;
+  margin: 0;
+  padding: 0;
+  font-family: opensans-bold;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+.underlined-heading {
+  color: rgb(183, 183, 183);
+  margin: 2em 0;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.underlined-heading:after {
+  background: none repeat scroll 0 0 $dp-red;
+  bottom: -.4em;
+  content: "";
+  display: block;
+  height: 3px;
+  width: 148px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:16px;
+}

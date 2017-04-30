@@ -1,0 +1,2397 @@
+{
+  "version": "1.0",
+  "encoding": "UTF-8",
+  "feed": {
+    "xmlns": "http://www.w3.org/2005/Atom",
+    "xmlns$openSearch": "http://a9.com/-/spec/opensearchrss/1.0/",
+    "xmlns$gsx": "http://schemas.google.com/spreadsheets/2006/extended",
+    "id": {
+      "$t": "https://spreadsheets.google.com/feeds/list/1Wsa8u-EivmfeND9dj_WKuiCs587KguGsJVqZre-94BQ/od6/public/values"
+    },
+    "updated": {
+      "$t": "2017-03-22T00:28:57.983Z"
+    },
+    "category": [
+      {
+        "scheme": "http://schemas.google.com/spreadsheets/2006",
+        "term": "http://schemas.google.com/spreadsheets/2006#list"
+      }
+    ],
+    "title": {
+      "type": "text",
+      "$t": "Project List"
+    },
+    "link": [
+      {
+        "rel": "alternate",
+        "type": "application/atom+xml",
+        "href": "https://docs.google.com/spreadsheets/d/1Wsa8u-EivmfeND9dj_WKuiCs587KguGsJVqZre-94BQ/pubhtml"
+      },
+      {
+        "rel": "http://schemas.google.com/g/2005#feed",
+        "type": "application/atom+xml",
+        "href": "https://spreadsheets.google.com/feeds/list/1Wsa8u-EivmfeND9dj_WKuiCs587KguGsJVqZre-94BQ/od6/public/values"
+      },
+      {
+        "rel": "http://schemas.google.com/g/2005#post",
+        "type": "application/atom+xml",
+        "href": "https://spreadsheets.google.com/feeds/list/1Wsa8u-EivmfeND9dj_WKuiCs587KguGsJVqZre-94BQ/od6/public/values"
+      },
+      {
+        "rel": "self",
+        "type": "application/atom+xml",
+        "href": "https://spreadsheets.google.com/feeds/list/1Wsa8u-EivmfeND9dj_WKuiCs587KguGsJVqZre-94BQ/od6/public/values?alt=json-in-script"
+      }
+    ],
+    "author": [
+      {
+        "name": {
+          "$t": "jay"
+        },
+        "email": {
+          "$t": "jay@mindsnacks.com"
+        }
+      }
+    ],
+    "openSearch$totalResults": {
+      "$t": "44"
+    },
+    "openSearch$startIndex": {
+      "$t": "1"
+    },
+    "entry": [
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/1Wsa8u-EivmfeND9dj_WKuiCs587KguGsJVqZre-94BQ/od6/public/values/cokwr"
+        },
+        "updated": {
+          "$t": "2017-03-22T00:28:57.983Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "PostYesBills"
+        },
+        "content": {
+          "type": "text",
+          "$t": "description: We're building the PostYesBills system for citizen participation in Congress Bills. This involves annotation and commenting, using the best of social network UI for interaction with Congress., issuecategory: Civic education, createdat: NYC1, contributorslackhandles: @arun"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/1Wsa8u-EivmfeND9dj_WKuiCs587KguGsJVqZre-94BQ/od6/public/values/cokwr"
+          }
+        ],
+        "gsx$teamname": {
+          "$t": "PostYesBills"
+        },
+        "gsx$othernames": {
+          "$t": ""
+        },
+        "gsx$description": {
+          "$t": "We're building the PostYesBills system for citizen participation in Congress Bills. This involves annotation and commenting, using the best of social network UI for interaction with Congress."
+        },
+        "gsx$issuecategory": {
+          "$t": "Civic education"
+        },
+        "gsx$createdat": {
+          "$t": "NYC1"
+        },
+        "gsx$contributoremails": {
+          "$t": ""
+        },
+        "gsx$contributorslackhandles": {
+          "$t": "@arun"
+        },
+        "gsx$notes": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/1Wsa8u-EivmfeND9dj_WKuiCs587KguGsJVqZre-94BQ/od6/public/values/cpzh4"
+        },
+        "updated": {
+          "$t": "2017-03-22T00:28:57.983Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Stand Up"
+        },
+        "content": {
+          "type": "text",
+          "$t": "description: Easiest way to make coordinated calls and visits to your representatives, with social proof, issuecategory: Civic engagement, createdat: NYC1, contributorslackhandles: @andymoonsun, notes: Highlighted by press"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/1Wsa8u-EivmfeND9dj_WKuiCs587KguGsJVqZre-94BQ/od6/public/values/cpzh4"
+          }
+        ],
+        "gsx$teamname": {
+          "$t": "Stand Up"
+        },
+        "gsx$othernames": {
+          "$t": ""
+        },
+        "gsx$description": {
+          "$t": "Easiest way to make coordinated calls and visits to your representatives, with social proof"
+        },
+        "gsx$issuecategory": {
+          "$t": "Civic engagement"
+        },
+        "gsx$createdat": {
+          "$t": "NYC1"
+        },
+        "gsx$contributoremails": {
+          "$t": ""
+        },
+        "gsx$contributorslackhandles": {
+          "$t": "@andymoonsun"
+        },
+        "gsx$notes": {
+          "$t": "Highlighted by press"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/1Wsa8u-EivmfeND9dj_WKuiCs587KguGsJVqZre-94BQ/od6/public/values/cre1l"
+        },
+        "updated": {
+          "$t": "2017-03-22T00:28:57.983Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Influenza"
+        },
+        "content": {
+          "type": "text",
+          "$t": "description: The first debugging tool for US Politics, issuecategory: Government ethics, createdat: NYC1, contributorslackhandles: @sahuguet, notes: Highlighted by press"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/1Wsa8u-EivmfeND9dj_WKuiCs587KguGsJVqZre-94BQ/od6/public/values/cre1l"
+          }
+        ],
+        "gsx$teamname": {
+          "$t": "Influenza"
+        },
+        "gsx$othernames": {
+          "$t": ""
+        },
+        "gsx$description": {
+          "$t": "The first debugging tool for US Politics"
+        },
+        "gsx$issuecategory": {
+          "$t": "Government ethics"
+        },
+        "gsx$createdat": {
+          "$t": "NYC1"
+        },
+        "gsx$contributoremails": {
+          "$t": ""
+        },
+        "gsx$contributorslackhandles": {
+          "$t": "@sahuguet"
+        },
+        "gsx$notes": {
+          "$t": "Highlighted by press"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/1Wsa8u-EivmfeND9dj_WKuiCs587KguGsJVqZre-94BQ/od6/public/values/chk2m"
+        },
+        "updated": {
+          "$t": "2017-03-22T00:28:57.983Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "PerspecTV"
+        },
+        "content": {
+          "type": "text",
+          "$t": "description: Broadcasting diverse opinions to break through the echo chamber. Empathy req, issuecategory: Open mindedness and diversity of opinions, createdat: NYC1, contributorslackhandles: @mkewls"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/1Wsa8u-EivmfeND9dj_WKuiCs587KguGsJVqZre-94BQ/od6/public/values/chk2m"
+          }
+        ],
+        "gsx$teamname": {
+          "$t": "PerspecTV"
+        },
+        "gsx$othernames": {
+          "$t": ""
+        },
+        "gsx$description": {
+          "$t": "Broadcasting diverse opinions to break through the echo chamber. Empathy req"
+        },
+        "gsx$issuecategory": {
+          "$t": "Open mindedness and diversity of opinions"
+        },
+        "gsx$createdat": {
+          "$t": "NYC1"
+        },
+        "gsx$contributoremails": {
+          "$t": ""
+        },
+        "gsx$contributorslackhandles": {
+          "$t": "@mkewls"
+        },
+        "gsx$notes": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/1Wsa8u-EivmfeND9dj_WKuiCs587KguGsJVqZre-94BQ/od6/public/values/ciyn3"
+        },
+        "updated": {
+          "$t": "2017-03-22T00:28:57.983Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Phoneocracy"
+        },
+        "content": {
+          "type": "text",
+          "$t": "description: Matching people over the phone to share opposing opinions, issuecategory: Open mindedness and diversity of opinions, createdat: NYC1, contributorslackhandles: @sriya"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/1Wsa8u-EivmfeND9dj_WKuiCs587KguGsJVqZre-94BQ/od6/public/values/ciyn3"
+          }
+        ],
+        "gsx$teamname": {
+          "$t": "Phoneocracy"
+        },
+        "gsx$othernames": {
+          "$t": ""
+        },
+        "gsx$description": {
+          "$t": "Matching people over the phone to share opposing opinions"
+        },
+        "gsx$issuecategory": {
+          "$t": "Open mindedness and diversity of opinions"
+        },
+        "gsx$createdat": {
+          "$t": "NYC1"
+        },
+        "gsx$contributoremails": {
+          "$t": ""
+        },
+        "gsx$contributorslackhandles": {
+          "$t": "@sriya"
+        },
+        "gsx$notes": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/1Wsa8u-EivmfeND9dj_WKuiCs587KguGsJVqZre-94BQ/od6/public/values/ckd7g"
+        },
+        "updated": {
+          "$t": "2017-03-22T00:28:57.983Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Balanced Press"
+        },
+        "content": {
+          "type": "text",
+          "$t": "description: See the bias in the news you consume, issuecategory: Spread of information / journalism, createdat: NYC1, contributorslackhandles: @dmlicht"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/1Wsa8u-EivmfeND9dj_WKuiCs587KguGsJVqZre-94BQ/od6/public/values/ckd7g"
+          }
+        ],
+        "gsx$teamname": {
+          "$t": "Balanced Press"
+        },
+        "gsx$othernames": {
+          "$t": ""
+        },
+        "gsx$description": {
+          "$t": "See the bias in the news you consume"
+        },
+        "gsx$issuecategory": {
+          "$t": "Spread of information / journalism"
+        },
+        "gsx$createdat": {
+          "$t": "NYC1"
+        },
+        "gsx$contributoremails": {
+          "$t": ""
+        },
+        "gsx$contributorslackhandles": {
+          "$t": "@dmlicht"
+        },
+        "gsx$notes": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/1Wsa8u-EivmfeND9dj_WKuiCs587KguGsJVqZre-94BQ/od6/public/values/clrrx"
+        },
+        "updated": {
+          "$t": "2017-03-22T00:28:57.983Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "BotArmy"
+        },
+        "content": {
+          "type": "text",
+          "$t": "description: Crushing fake news on Twitter with an army of bots, issuecategory: Spread of information / journalism, createdat: NYC1, notes: Highlighted by press"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/1Wsa8u-EivmfeND9dj_WKuiCs587KguGsJVqZre-94BQ/od6/public/values/clrrx"
+          }
+        ],
+        "gsx$teamname": {
+          "$t": "BotArmy"
+        },
+        "gsx$othernames": {
+          "$t": ""
+        },
+        "gsx$description": {
+          "$t": "Crushing fake news on Twitter with an army of bots"
+        },
+        "gsx$issuecategory": {
+          "$t": "Spread of information / journalism"
+        },
+        "gsx$createdat": {
+          "$t": "NYC1"
+        },
+        "gsx$contributoremails": {
+          "$t": ""
+        },
+        "gsx$contributorslackhandles": {
+          "$t": ""
+        },
+        "gsx$notes": {
+          "$t": "Highlighted by press"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/1Wsa8u-EivmfeND9dj_WKuiCs587KguGsJVqZre-94BQ/od6/public/values/cyevm"
+        },
+        "updated": {
+          "$t": "2017-03-22T00:28:57.983Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "SecondOpinion"
+        },
+        "content": {
+          "type": "text",
+          "$t": "description: A Facebook Messenger app to make it easy to determine trustworthiness and find alternative viewpoints, issuecategory: Spread of information / journalism, createdat: NYC1, contributorslackhandles: @david, notes: Highlighted by press"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/1Wsa8u-EivmfeND9dj_WKuiCs587KguGsJVqZre-94BQ/od6/public/values/cyevm"
+          }
+        ],
+        "gsx$teamname": {
+          "$t": "SecondOpinion"
+        },
+        "gsx$othernames": {
+          "$t": ""
+        },
+        "gsx$description": {
+          "$t": "A Facebook Messenger app to make it easy to determine trustworthiness and find alternative viewpoints"
+        },
+        "gsx$issuecategory": {
+          "$t": "Spread of information / journalism"
+        },
+        "gsx$createdat": {
+          "$t": "NYC1"
+        },
+        "gsx$contributoremails": {
+          "$t": ""
+        },
+        "gsx$contributorslackhandles": {
+          "$t": "@david"
+        },
+        "gsx$notes": {
+          "$t": "Highlighted by press"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/1Wsa8u-EivmfeND9dj_WKuiCs587KguGsJVqZre-94BQ/od6/public/values/cztg3"
+        },
+        "updated": {
+          "$t": "2017-03-22T00:28:57.983Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "The News Literacy Project"
+        },
+        "content": {
+          "type": "text",
+          "$t": "description: Fake news; redesigning the website for this org, issuecategory: Spread of information / journalism, createdat: NYC1, contributorslackhandles: @ericschles"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/1Wsa8u-EivmfeND9dj_WKuiCs587KguGsJVqZre-94BQ/od6/public/values/cztg3"
+          }
+        ],
+        "gsx$teamname": {
+          "$t": "The News Literacy Project"
+        },
+        "gsx$othernames": {
+          "$t": ""
+        },
+        "gsx$description": {
+          "$t": "Fake news; redesigning the website for this org"
+        },
+        "gsx$issuecategory": {
+          "$t": "Spread of information / journalism"
+        },
+        "gsx$createdat": {
+          "$t": "NYC1"
+        },
+        "gsx$contributoremails": {
+          "$t": ""
+        },
+        "gsx$contributorslackhandles": {
+          "$t": "@ericschles"
+        },
+        "gsx$notes": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/1Wsa8u-EivmfeND9dj_WKuiCs587KguGsJVqZre-94BQ/od6/public/values/d180g"
+        },
+        "updated": {
+          "$t": "2017-03-22T00:28:57.983Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "TruVote"
+        },
+        "content": {
+          "type": "text",
+          "$t": "othernames: RunTheVote, description: Simulate runoff voting to inspire voter confidence in the little guys, at the local and national level., issuecategory: Voting, createdat: NYC1, contributorslackhandles: @samir"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/1Wsa8u-EivmfeND9dj_WKuiCs587KguGsJVqZre-94BQ/od6/public/values/d180g"
+          }
+        ],
+        "gsx$teamname": {
+          "$t": "TruVote"
+        },
+        "gsx$othernames": {
+          "$t": "RunTheVote"
+        },
+        "gsx$description": {
+          "$t": "Simulate runoff voting to inspire voter confidence in the little guys, at the local and national level."
+        },
+        "gsx$issuecategory": {
+          "$t": "Voting"
+        },
+        "gsx$createdat": {
+          "$t": "NYC1"
+        },
+        "gsx$contributoremails": {
+          "$t": ""
+        },
+        "gsx$contributorslackhandles": {
+          "$t": "@samir"
+        },
+        "gsx$notes": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/1Wsa8u-EivmfeND9dj_WKuiCs587KguGsJVqZre-94BQ/od6/public/values/d2mkx"
+        },
+        "updated": {
+          "$t": "2017-03-22T00:28:57.983Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Advocate"
+        },
+        "content": {
+          "type": "text",
+          "$t": "description: Where the world comes to participate in democracy., createdat: NYC1"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/1Wsa8u-EivmfeND9dj_WKuiCs587KguGsJVqZre-94BQ/od6/public/values/d2mkx"
+          }
+        ],
+        "gsx$teamname": {
+          "$t": "Advocate"
+        },
+        "gsx$othernames": {
+          "$t": ""
+        },
+        "gsx$description": {
+          "$t": "Where the world comes to participate in democracy."
+        },
+        "gsx$issuecategory": {
+          "$t": ""
+        },
+        "gsx$createdat": {
+          "$t": "NYC1"
+        },
+        "gsx$contributoremails": {
+          "$t": ""
+        },
+        "gsx$contributorslackhandles": {
+          "$t": ""
+        },
+        "gsx$notes": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/1Wsa8u-EivmfeND9dj_WKuiCs587KguGsJVqZre-94BQ/od6/public/values/cssly"
+        },
+        "updated": {
+          "$t": "2017-03-22T00:28:57.983Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "DNCvote"
+        },
+        "content": {
+          "type": "text",
+          "$t": "description: Democratize the DNC, createdat: NYC1"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/1Wsa8u-EivmfeND9dj_WKuiCs587KguGsJVqZre-94BQ/od6/public/values/cssly"
+          }
+        ],
+        "gsx$teamname": {
+          "$t": "DNCvote"
+        },
+        "gsx$othernames": {
+          "$t": ""
+        },
+        "gsx$description": {
+          "$t": "Democratize the DNC"
+        },
+        "gsx$issuecategory": {
+          "$t": ""
+        },
+        "gsx$createdat": {
+          "$t": "NYC1"
+        },
+        "gsx$contributoremails": {
+          "$t": ""
+        },
+        "gsx$contributorslackhandles": {
+          "$t": ""
+        },
+        "gsx$notes": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/1Wsa8u-EivmfeND9dj_WKuiCs587KguGsJVqZre-94BQ/od6/public/values/cu76f"
+        },
+        "updated": {
+          "$t": "2017-03-22T00:28:57.983Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Politweets"
+        },
+        "content": {
+          "type": "text",
+          "$t": "createdat: NYC1, contributorslackhandles: @pullyl"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/1Wsa8u-EivmfeND9dj_WKuiCs587KguGsJVqZre-94BQ/od6/public/values/cu76f"
+          }
+        ],
+        "gsx$teamname": {
+          "$t": "Politweets"
+        },
+        "gsx$othernames": {
+          "$t": ""
+        },
+        "gsx$description": {
+          "$t": ""
+        },
+        "gsx$issuecategory": {
+          "$t": ""
+        },
+        "gsx$createdat": {
+          "$t": "NYC1"
+        },
+        "gsx$contributoremails": {
+          "$t": ""
+        },
+        "gsx$contributorslackhandles": {
+          "$t": "@pullyl"
+        },
+        "gsx$notes": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/1Wsa8u-EivmfeND9dj_WKuiCs587KguGsJVqZre-94BQ/od6/public/values/cvlqs"
+        },
+        "updated": {
+          "$t": "2017-03-22T00:28:57.983Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Project Swimmy"
+        },
+        "content": {
+          "type": "text",
+          "$t": "description: Infrastructure for sustainable emergent movements beyond elections, createdat: NYC1, contributorslackhandles: @rapicastillo"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/1Wsa8u-EivmfeND9dj_WKuiCs587KguGsJVqZre-94BQ/od6/public/values/cvlqs"
+          }
+        ],
+        "gsx$teamname": {
+          "$t": "Project Swimmy"
+        },
+        "gsx$othernames": {
+          "$t": ""
+        },
+        "gsx$description": {
+          "$t": "Infrastructure for sustainable emergent movements beyond elections"
+        },
+        "gsx$issuecategory": {
+          "$t": ""
+        },
+        "gsx$createdat": {
+          "$t": "NYC1"
+        },
+        "gsx$contributoremails": {
+          "$t": ""
+        },
+        "gsx$contributorslackhandles": {
+          "$t": "@rapicastillo"
+        },
+        "gsx$notes": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/1Wsa8u-EivmfeND9dj_WKuiCs587KguGsJVqZre-94BQ/od6/public/values/cx0b9"
+        },
+        "updated": {
+          "$t": "2017-03-22T00:28:57.983Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "snapgov"
+        },
+        "content": {
+          "type": "text",
+          "$t": "othernames: Legislatr, description: Tinder-style discovery and action platform for legislation, createdat: NYC1, contributorslackhandles: @paulaburke"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/1Wsa8u-EivmfeND9dj_WKuiCs587KguGsJVqZre-94BQ/od6/public/values/cx0b9"
+          }
+        ],
+        "gsx$teamname": {
+          "$t": "snapgov"
+        },
+        "gsx$othernames": {
+          "$t": "Legislatr"
+        },
+        "gsx$description": {
+          "$t": "Tinder-style discovery and action platform for legislation"
+        },
+        "gsx$issuecategory": {
+          "$t": ""
+        },
+        "gsx$createdat": {
+          "$t": "NYC1"
+        },
+        "gsx$contributoremails": {
+          "$t": ""
+        },
+        "gsx$contributorslackhandles": {
+          "$t": "@paulaburke"
+        },
+        "gsx$notes": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/1Wsa8u-EivmfeND9dj_WKuiCs587KguGsJVqZre-94BQ/od6/public/values/d9ney"
+        },
+        "updated": {
+          "$t": "2017-03-22T00:28:57.983Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "SocialIPO"
+        },
+        "content": {
+          "type": "text",
+          "$t": "description: Prototype stock exchange for social entrepreneurs & B-Corporations, createdat: NYC1, contributoremails: aditi@virginia.edu"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/1Wsa8u-EivmfeND9dj_WKuiCs587KguGsJVqZre-94BQ/od6/public/values/d9ney"
+          }
+        ],
+        "gsx$teamname": {
+          "$t": "SocialIPO"
+        },
+        "gsx$othernames": {
+          "$t": ""
+        },
+        "gsx$description": {
+          "$t": "Prototype stock exchange for social entrepreneurs & B-Corporations"
+        },
+        "gsx$issuecategory": {
+          "$t": ""
+        },
+        "gsx$createdat": {
+          "$t": "NYC1"
+        },
+        "gsx$contributoremails": {
+          "$t": "aditi@virginia.edu"
+        },
+        "gsx$contributorslackhandles": {
+          "$t": ""
+        },
+        "gsx$notes": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/1Wsa8u-EivmfeND9dj_WKuiCs587KguGsJVqZre-94BQ/od6/public/values/db1zf"
+        },
+        "updated": {
+          "$t": "2017-03-22T00:28:57.983Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "TownBoard"
+        },
+        "content": {
+          "type": "text",
+          "$t": "createdat: NYC1, contributorslackhandles: @l1990790120"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/1Wsa8u-EivmfeND9dj_WKuiCs587KguGsJVqZre-94BQ/od6/public/values/db1zf"
+          }
+        ],
+        "gsx$teamname": {
+          "$t": "TownBoard"
+        },
+        "gsx$othernames": {
+          "$t": ""
+        },
+        "gsx$description": {
+          "$t": ""
+        },
+        "gsx$issuecategory": {
+          "$t": ""
+        },
+        "gsx$createdat": {
+          "$t": "NYC1"
+        },
+        "gsx$contributoremails": {
+          "$t": ""
+        },
+        "gsx$contributorslackhandles": {
+          "$t": "@l1990790120"
+        },
+        "gsx$notes": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/1Wsa8u-EivmfeND9dj_WKuiCs587KguGsJVqZre-94BQ/od6/public/values/dcgjs"
+        },
+        "updated": {
+          "$t": "2017-03-22T00:28:57.983Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Vocal"
+        },
+        "content": {
+          "type": "text",
+          "$t": "description: A mobile app to engage people in local politics and give them a more powerful voice, createdat: NYC1"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/1Wsa8u-EivmfeND9dj_WKuiCs587KguGsJVqZre-94BQ/od6/public/values/dcgjs"
+          }
+        ],
+        "gsx$teamname": {
+          "$t": "Vocal"
+        },
+        "gsx$othernames": {
+          "$t": ""
+        },
+        "gsx$description": {
+          "$t": "A mobile app to engage people in local politics and give them a more powerful voice"
+        },
+        "gsx$issuecategory": {
+          "$t": ""
+        },
+        "gsx$createdat": {
+          "$t": "NYC1"
+        },
+        "gsx$contributoremails": {
+          "$t": ""
+        },
+        "gsx$contributorslackhandles": {
+          "$t": ""
+        },
+        "gsx$notes": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/1Wsa8u-EivmfeND9dj_WKuiCs587KguGsJVqZre-94BQ/od6/public/values/ddv49"
+        },
+        "updated": {
+          "$t": "2017-03-22T00:28:57.983Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Voter Karma"
+        },
+        "content": {
+          "type": "text",
+          "$t": "createdat: NYC1, contributorslackhandles: @bpben"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/1Wsa8u-EivmfeND9dj_WKuiCs587KguGsJVqZre-94BQ/od6/public/values/ddv49"
+          }
+        ],
+        "gsx$teamname": {
+          "$t": "Voter Karma"
+        },
+        "gsx$othernames": {
+          "$t": ""
+        },
+        "gsx$description": {
+          "$t": ""
+        },
+        "gsx$issuecategory": {
+          "$t": ""
+        },
+        "gsx$createdat": {
+          "$t": "NYC1"
+        },
+        "gsx$contributoremails": {
+          "$t": ""
+        },
+        "gsx$contributorslackhandles": {
+          "$t": "@bpben"
+        },
+        "gsx$notes": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/1Wsa8u-EivmfeND9dj_WKuiCs587KguGsJVqZre-94BQ/od6/public/values/d415a"
+        },
+        "updated": {
+          "$t": "2017-03-22T00:28:57.983Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "Row: 21"
+        },
+        "content": {
+          "type": "text",
+          "$t": "description: Give grassroots groups the tools of big-budget political campaigns., createdat: NYC1, contributoremails: christine@clowder.nyc"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/1Wsa8u-EivmfeND9dj_WKuiCs587KguGsJVqZre-94BQ/od6/public/values/d415a"
+          }
+        ],
+        "gsx$teamname": {
+          "$t": ""
+        },
+        "gsx$othernames": {
+          "$t": ""
+        },
+        "gsx$description": {
+          "$t": "Give grassroots groups the tools of big-budget political campaigns."
+        },
+        "gsx$issuecategory": {
+          "$t": ""
+        },
+        "gsx$createdat": {
+          "$t": "NYC1"
+        },
+        "gsx$contributoremails": {
+          "$t": "christine@clowder.nyc"
+        },
+        "gsx$contributorslackhandles": {
+          "$t": ""
+        },
+        "gsx$notes": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/1Wsa8u-EivmfeND9dj_WKuiCs587KguGsJVqZre-94BQ/od6/public/values/d5fpr"
+        },
+        "updated": {
+          "$t": "2017-03-22T00:28:57.983Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "alexacallcongress"
+        },
+        "content": {
+          "type": "text",
+          "$t": "issuecategory: Civic engagement, createdat: SF1, contributoremails: mtravers@gmail.com, contributorslackhandles: @mt, @heidi"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/1Wsa8u-EivmfeND9dj_WKuiCs587KguGsJVqZre-94BQ/od6/public/values/d5fpr"
+          }
+        ],
+        "gsx$teamname": {
+          "$t": "alexacallcongress"
+        },
+        "gsx$othernames": {
+          "$t": ""
+        },
+        "gsx$description": {
+          "$t": ""
+        },
+        "gsx$issuecategory": {
+          "$t": "Civic engagement"
+        },
+        "gsx$createdat": {
+          "$t": "SF1"
+        },
+        "gsx$contributoremails": {
+          "$t": "mtravers@gmail.com"
+        },
+        "gsx$contributorslackhandles": {
+          "$t": "@mt, @heidi"
+        },
+        "gsx$notes": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/1Wsa8u-EivmfeND9dj_WKuiCs587KguGsJVqZre-94BQ/od6/public/values/d6ua4"
+        },
+        "updated": {
+          "$t": "2017-03-22T00:28:57.983Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "getinvolved"
+        },
+        "content": {
+          "type": "text",
+          "$t": "description: Decision tree to help people get involved locally, issuecategory: Civic engagement, createdat: SF1, contributoremails: bettychn@gmail.com, contributorslackhandles: @bettychn, @jennqiao, @daniel.roberts"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/1Wsa8u-EivmfeND9dj_WKuiCs587KguGsJVqZre-94BQ/od6/public/values/d6ua4"
+          }
+        ],
+        "gsx$teamname": {
+          "$t": "getinvolved"
+        },
+        "gsx$othernames": {
+          "$t": ""
+        },
+        "gsx$description": {
+          "$t": "Decision tree to help people get involved locally"
+        },
+        "gsx$issuecategory": {
+          "$t": "Civic engagement"
+        },
+        "gsx$createdat": {
+          "$t": "SF1"
+        },
+        "gsx$contributoremails": {
+          "$t": "bettychn@gmail.com"
+        },
+        "gsx$contributorslackhandles": {
+          "$t": "@bettychn, @jennqiao, @daniel.roberts"
+        },
+        "gsx$notes": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/1Wsa8u-EivmfeND9dj_WKuiCs587KguGsJVqZre-94BQ/od6/public/values/d88ul"
+        },
+        "updated": {
+          "$t": "2017-03-22T00:28:57.983Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "hellogov"
+        },
+        "content": {
+          "type": "text",
+          "$t": "description: help you call your elected representatives, issuecategory: Civic engagement, createdat: SF1, contributoremails: sydneyflak@gmail.com, hndrka@gmail.com, levy@hussle.life, aaron@aaronbarrett.com, williampkee@gmail.com, stefan.schnabl@gmail.com, kbertash@gmail.com, contributorslackhandles: @sflak, @hendrika, @levy, @aaronbarrett, @billkee, @sunarts, @kate, @erikagomez, @unruthless, notes: Highlighted by press"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/1Wsa8u-EivmfeND9dj_WKuiCs587KguGsJVqZre-94BQ/od6/public/values/d88ul"
+          }
+        ],
+        "gsx$teamname": {
+          "$t": "hellogov"
+        },
+        "gsx$othernames": {
+          "$t": ""
+        },
+        "gsx$description": {
+          "$t": "help you call your elected representatives"
+        },
+        "gsx$issuecategory": {
+          "$t": "Civic engagement"
+        },
+        "gsx$createdat": {
+          "$t": "SF1"
+        },
+        "gsx$contributoremails": {
+          "$t": "sydneyflak@gmail.com, hndrka@gmail.com, levy@hussle.life, aaron@aaronbarrett.com, williampkee@gmail.com, stefan.schnabl@gmail.com, kbertash@gmail.com"
+        },
+        "gsx$contributorslackhandles": {
+          "$t": "@sflak, @hendrika, @levy, @aaronbarrett, @billkee, @sunarts, @kate, @erikagomez, @unruthless"
+        },
+        "gsx$notes": {
+          "$t": "Highlighted by press"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/1Wsa8u-EivmfeND9dj_WKuiCs587KguGsJVqZre-94BQ/od6/public/values/dkvya"
+        },
+        "updated": {
+          "$t": "2017-03-22T00:28:57.983Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "myfavorito"
+        },
+        "content": {
+          "type": "text",
+          "$t": "description: Reward people for paying attention, doing voluntary work, issuecategory: Civic engagement, createdat: SF1, contributoremails: dirk@myfavorito,com, daniel@myfavorito.com, contributorslackhandles: @dirk.myfavorito, @daniel"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/1Wsa8u-EivmfeND9dj_WKuiCs587KguGsJVqZre-94BQ/od6/public/values/dkvya"
+          }
+        ],
+        "gsx$teamname": {
+          "$t": "myfavorito"
+        },
+        "gsx$othernames": {
+          "$t": ""
+        },
+        "gsx$description": {
+          "$t": "Reward people for paying attention, doing voluntary work"
+        },
+        "gsx$issuecategory": {
+          "$t": "Civic engagement"
+        },
+        "gsx$createdat": {
+          "$t": "SF1"
+        },
+        "gsx$contributoremails": {
+          "$t": "dirk@myfavorito,com, daniel@myfavorito.com"
+        },
+        "gsx$contributorslackhandles": {
+          "$t": "@dirk.myfavorito, @daniel"
+        },
+        "gsx$notes": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/1Wsa8u-EivmfeND9dj_WKuiCs587KguGsJVqZre-94BQ/od6/public/values/dmair"
+        },
+        "updated": {
+          "$t": "2017-03-22T00:28:57.983Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "echoellis"
+        },
+        "content": {
+          "type": "text",
+          "$t": "issuecategory: Immigration, createdat: SF1, contributoremails: kbertash@gmail.com, contributorslackhandles: @kate"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/1Wsa8u-EivmfeND9dj_WKuiCs587KguGsJVqZre-94BQ/od6/public/values/dmair"
+          }
+        ],
+        "gsx$teamname": {
+          "$t": "echoellis"
+        },
+        "gsx$othernames": {
+          "$t": ""
+        },
+        "gsx$description": {
+          "$t": ""
+        },
+        "gsx$issuecategory": {
+          "$t": "Immigration"
+        },
+        "gsx$createdat": {
+          "$t": "SF1"
+        },
+        "gsx$contributoremails": {
+          "$t": "kbertash@gmail.com"
+        },
+        "gsx$contributorslackhandles": {
+          "$t": "@kate"
+        },
+        "gsx$notes": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/1Wsa8u-EivmfeND9dj_WKuiCs587KguGsJVqZre-94BQ/od6/public/values/dnp34"
+        },
+        "updated": {
+          "$t": "2017-03-22T00:28:57.983Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "noadjectives"
+        },
+        "content": {
+          "type": "text",
+          "$t": "description: Take a twitter stream and delete all the adjectives, issuecategory: Media, createdat: SF1, contributoremails: mpope.cr@gmail.com, contributorslackhandles: @amorphid"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/1Wsa8u-EivmfeND9dj_WKuiCs587KguGsJVqZre-94BQ/od6/public/values/dnp34"
+          }
+        ],
+        "gsx$teamname": {
+          "$t": "noadjectives"
+        },
+        "gsx$othernames": {
+          "$t": ""
+        },
+        "gsx$description": {
+          "$t": "Take a twitter stream and delete all the adjectives"
+        },
+        "gsx$issuecategory": {
+          "$t": "Media"
+        },
+        "gsx$createdat": {
+          "$t": "SF1"
+        },
+        "gsx$contributoremails": {
+          "$t": "mpope.cr@gmail.com"
+        },
+        "gsx$contributorslackhandles": {
+          "$t": "@amorphid"
+        },
+        "gsx$notes": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/1Wsa8u-EivmfeND9dj_WKuiCs587KguGsJVqZre-94BQ/od6/public/values/dp3nl"
+        },
+        "updated": {
+          "$t": "2017-03-22T00:28:57.983Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "newsnavigator"
+        },
+        "content": {
+          "type": "text",
+          "$t": "othernames: veriscope, description: Chrome extension to combat the spread of fake news by flagging Fake news is an epidemic. We need to equip them with tools to differentiate fact from fiction., issuecategory: Spread of information / journalism, createdat: SF1, contributoremails: quinnreilly@gmail.com, contributorslackhandles: @princely, @jeremys, @quinn, @florin.badita, @ryan_hall, notes: Highlighted by press"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/1Wsa8u-EivmfeND9dj_WKuiCs587KguGsJVqZre-94BQ/od6/public/values/dp3nl"
+          }
+        ],
+        "gsx$teamname": {
+          "$t": "newsnavigator"
+        },
+        "gsx$othernames": {
+          "$t": "veriscope"
+        },
+        "gsx$description": {
+          "$t": "Chrome extension to combat the spread of fake news by flagging Fake news is an epidemic. We need to equip them with tools to differentiate fact from fiction."
+        },
+        "gsx$issuecategory": {
+          "$t": "Spread of information / journalism"
+        },
+        "gsx$createdat": {
+          "$t": "SF1"
+        },
+        "gsx$contributoremails": {
+          "$t": "quinnreilly@gmail.com"
+        },
+        "gsx$contributorslackhandles": {
+          "$t": "@princely, @jeremys, @quinn, @florin.badita, @ryan_hall"
+        },
+        "gsx$notes": {
+          "$t": "Highlighted by press"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/1Wsa8u-EivmfeND9dj_WKuiCs587KguGsJVqZre-94BQ/od6/public/values/df9om"
+        },
+        "updated": {
+          "$t": "2017-03-22T00:28:57.983Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "spectrum"
+        },
+        "content": {
+          "type": "text",
+          "$t": "description: show you the bias of news publications you read and suggesting alternatives from the other side of the political spectrum, issuecategory: Spread of information / journalism, createdat: SF1, contributoremails: jgerminario@gmail.com, miguel@mindsnacks.com, eduardo@mindsnacks.com, contributorslackhandles: @jgerminario, @miguel, @emonroy, notes: Highlighted by press"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/1Wsa8u-EivmfeND9dj_WKuiCs587KguGsJVqZre-94BQ/od6/public/values/df9om"
+          }
+        ],
+        "gsx$teamname": {
+          "$t": "spectrum"
+        },
+        "gsx$othernames": {
+          "$t": ""
+        },
+        "gsx$description": {
+          "$t": "show you the bias of news publications you read and suggesting alternatives from the other side of the political spectrum"
+        },
+        "gsx$issuecategory": {
+          "$t": "Spread of information / journalism"
+        },
+        "gsx$createdat": {
+          "$t": "SF1"
+        },
+        "gsx$contributoremails": {
+          "$t": "jgerminario@gmail.com, miguel@mindsnacks.com, eduardo@mindsnacks.com"
+        },
+        "gsx$contributorslackhandles": {
+          "$t": "@jgerminario, @miguel, @emonroy"
+        },
+        "gsx$notes": {
+          "$t": "Highlighted by press"
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/1Wsa8u-EivmfeND9dj_WKuiCs587KguGsJVqZre-94BQ/od6/public/values/dgo93"
+        },
+        "updated": {
+          "$t": "2017-03-22T00:28:57.983Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "wevote"
+        },
+        "content": {
+          "type": "text",
+          "$t": "description: Make & share your own voter guide, issuecategory: Voting, createdat: SF1, contributoremails: Dale.McGrew@WeVote.US, contributorslackhandles: @ian, @artidoshi, @sltran, @heidi, @dalemcgrew, @colettephair"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/1Wsa8u-EivmfeND9dj_WKuiCs587KguGsJVqZre-94BQ/od6/public/values/dgo93"
+          }
+        ],
+        "gsx$teamname": {
+          "$t": "wevote"
+        },
+        "gsx$othernames": {
+          "$t": ""
+        },
+        "gsx$description": {
+          "$t": "Make & share your own voter guide"
+        },
+        "gsx$issuecategory": {
+          "$t": "Voting"
+        },
+        "gsx$createdat": {
+          "$t": "SF1"
+        },
+        "gsx$contributoremails": {
+          "$t": "Dale.McGrew@WeVote.US"
+        },
+        "gsx$contributorslackhandles": {
+          "$t": "@ian, @artidoshi, @sltran, @heidi, @dalemcgrew, @colettephair"
+        },
+        "gsx$notes": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/1Wsa8u-EivmfeND9dj_WKuiCs587KguGsJVqZre-94BQ/od6/public/values/di2tg"
+        },
+        "updated": {
+          "$t": "2017-03-22T00:28:57.983Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "americanjournal"
+        },
+        "content": {
+          "type": "text",
+          "$t": "createdat: SF1, contributoremails: luo.j2010@gmail.com, contributorslackhandles: @mrbubbles, @emcatbell, @jaredscheib, @aaronstrick, @abbyreadey"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/1Wsa8u-EivmfeND9dj_WKuiCs587KguGsJVqZre-94BQ/od6/public/values/di2tg"
+          }
+        ],
+        "gsx$teamname": {
+          "$t": "americanjournal"
+        },
+        "gsx$othernames": {
+          "$t": ""
+        },
+        "gsx$description": {
+          "$t": ""
+        },
+        "gsx$issuecategory": {
+          "$t": ""
+        },
+        "gsx$createdat": {
+          "$t": "SF1"
+        },
+        "gsx$contributoremails": {
+          "$t": "luo.j2010@gmail.com"
+        },
+        "gsx$contributorslackhandles": {
+          "$t": "@mrbubbles, @emcatbell, @jaredscheib, @aaronstrick, @abbyreadey"
+        },
+        "gsx$notes": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/1Wsa8u-EivmfeND9dj_WKuiCs587KguGsJVqZre-94BQ/od6/public/values/djhdx"
+        },
+        "updated": {
+          "$t": "2017-03-22T00:28:57.983Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "sendvote"
+        },
+        "content": {
+          "type": "text",
+          "$t": "createdat: SF1, contributoremails: wroscoe@gmail.com, contributorslackhandles: @wroscoe"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/1Wsa8u-EivmfeND9dj_WKuiCs587KguGsJVqZre-94BQ/od6/public/values/djhdx"
+          }
+        ],
+        "gsx$teamname": {
+          "$t": "sendvote"
+        },
+        "gsx$othernames": {
+          "$t": ""
+        },
+        "gsx$description": {
+          "$t": ""
+        },
+        "gsx$issuecategory": {
+          "$t": ""
+        },
+        "gsx$createdat": {
+          "$t": "SF1"
+        },
+        "gsx$contributoremails": {
+          "$t": "wroscoe@gmail.com"
+        },
+        "gsx$contributorslackhandles": {
+          "$t": "@wroscoe"
+        },
+        "gsx$notes": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/1Wsa8u-EivmfeND9dj_WKuiCs587KguGsJVqZre-94BQ/od6/public/values/dw4je"
+        },
+        "updated": {
+          "$t": "2017-03-22T00:28:57.983Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "whosaidit"
+        },
+        "content": {
+          "type": "text",
+          "$t": "issuecategory: Civic education, createdat: SF1, contributoremails: anton.morant@gmail.com, contributorslackhandles: @antonmorant"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/1Wsa8u-EivmfeND9dj_WKuiCs587KguGsJVqZre-94BQ/od6/public/values/dw4je"
+          }
+        ],
+        "gsx$teamname": {
+          "$t": "whosaidit"
+        },
+        "gsx$othernames": {
+          "$t": ""
+        },
+        "gsx$description": {
+          "$t": ""
+        },
+        "gsx$issuecategory": {
+          "$t": "Civic education"
+        },
+        "gsx$createdat": {
+          "$t": "SF1"
+        },
+        "gsx$contributoremails": {
+          "$t": "anton.morant@gmail.com"
+        },
+        "gsx$contributorslackhandles": {
+          "$t": "@antonmorant"
+        },
+        "gsx$notes": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/1Wsa8u-EivmfeND9dj_WKuiCs587KguGsJVqZre-94BQ/od6/public/values/dxj3v"
+        },
+        "updated": {
+          "$t": "2017-03-22T00:28:57.983Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "regulately"
+        },
+        "content": {
+          "type": "text",
+          "$t": "description: Help make user interfaces better for government sites so you can provide feedback on legislation. There's already a rad regulations.gov API!, issuecategory: Civic education, createdat: SF2"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/1Wsa8u-EivmfeND9dj_WKuiCs587KguGsJVqZre-94BQ/od6/public/values/dxj3v"
+          }
+        ],
+        "gsx$teamname": {
+          "$t": "regulately"
+        },
+        "gsx$othernames": {
+          "$t": ""
+        },
+        "gsx$description": {
+          "$t": "Help make user interfaces better for government sites so you can provide feedback on legislation. There's already a rad regulations.gov API!"
+        },
+        "gsx$issuecategory": {
+          "$t": "Civic education"
+        },
+        "gsx$createdat": {
+          "$t": "SF2"
+        },
+        "gsx$contributoremails": {
+          "$t": ""
+        },
+        "gsx$contributorslackhandles": {
+          "$t": ""
+        },
+        "gsx$notes": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/1Wsa8u-EivmfeND9dj_WKuiCs587KguGsJVqZre-94BQ/od6/public/values/dyxo8"
+        },
+        "updated": {
+          "$t": "2017-03-22T00:28:57.983Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "resistance"
+        },
+        "content": {
+          "type": "text",
+          "$t": "description: Help people connect with local opportunities for direct action., issuecategory: Civic engagement, createdat: SF2"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/1Wsa8u-EivmfeND9dj_WKuiCs587KguGsJVqZre-94BQ/od6/public/values/dyxo8"
+          }
+        ],
+        "gsx$teamname": {
+          "$t": "resistance"
+        },
+        "gsx$othernames": {
+          "$t": ""
+        },
+        "gsx$description": {
+          "$t": "Help people connect with local opportunities for direct action."
+        },
+        "gsx$issuecategory": {
+          "$t": "Civic engagement"
+        },
+        "gsx$createdat": {
+          "$t": "SF2"
+        },
+        "gsx$contributoremails": {
+          "$t": ""
+        },
+        "gsx$contributorslackhandles": {
+          "$t": ""
+        },
+        "gsx$notes": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/1Wsa8u-EivmfeND9dj_WKuiCs587KguGsJVqZre-94BQ/od6/public/values/e0c8p"
+        },
+        "updated": {
+          "$t": "2017-03-22T00:28:57.983Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "localjohn"
+        },
+        "content": {
+          "type": "text",
+          "$t": "description: Leverage Netflix, Amazon Prime, Hulu to enable a distributed network of media creators to create satirical news commentary — your local John Oliver., issuecategory: Media, createdat: SF2"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/1Wsa8u-EivmfeND9dj_WKuiCs587KguGsJVqZre-94BQ/od6/public/values/e0c8p"
+          }
+        ],
+        "gsx$teamname": {
+          "$t": "localjohn"
+        },
+        "gsx$othernames": {
+          "$t": ""
+        },
+        "gsx$description": {
+          "$t": "Leverage Netflix, Amazon Prime, Hulu to enable a distributed network of media creators to create satirical news commentary — your local John Oliver."
+        },
+        "gsx$issuecategory": {
+          "$t": "Media"
+        },
+        "gsx$createdat": {
+          "$t": "SF2"
+        },
+        "gsx$contributoremails": {
+          "$t": ""
+        },
+        "gsx$contributorslackhandles": {
+          "$t": ""
+        },
+        "gsx$notes": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/1Wsa8u-EivmfeND9dj_WKuiCs587KguGsJVqZre-94BQ/od6/public/values/dqi9q"
+        },
+        "updated": {
+          "$t": "2017-03-22T00:28:57.983Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "fixpolling"
+        },
+        "content": {
+          "type": "text",
+          "$t": "description: Nate Silver was wrong because none of the pollsters listened to low-income people. We are a polling org and want to expand to the rust belt and the south. Need a platform for govt researchers to get on-demand insights from low-income people through SMS polling., issuecategory: Polling, createdat: SF2"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/1Wsa8u-EivmfeND9dj_WKuiCs587KguGsJVqZre-94BQ/od6/public/values/dqi9q"
+          }
+        ],
+        "gsx$teamname": {
+          "$t": "fixpolling"
+        },
+        "gsx$othernames": {
+          "$t": ""
+        },
+        "gsx$description": {
+          "$t": "Nate Silver was wrong because none of the pollsters listened to low-income people. We are a polling org and want to expand to the rust belt and the south. Need a platform for govt researchers to get on-demand insights from low-income people through SMS polling."
+        },
+        "gsx$issuecategory": {
+          "$t": "Polling"
+        },
+        "gsx$createdat": {
+          "$t": "SF2"
+        },
+        "gsx$contributoremails": {
+          "$t": ""
+        },
+        "gsx$contributorslackhandles": {
+          "$t": ""
+        },
+        "gsx$notes": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/1Wsa8u-EivmfeND9dj_WKuiCs587KguGsJVqZre-94BQ/od6/public/values/drwu7"
+        },
+        "updated": {
+          "$t": "2017-03-22T00:28:57.983Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "pollingisshit"
+        },
+        "content": {
+          "type": "text",
+          "$t": "description: Current polling is slow and inaccurate and lost us the White House. I want to make a text-based polling system that's accurate, cheaper, and easy to deploy frequently so we can get real-time data., issuecategory: Polling, createdat: SF2"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/1Wsa8u-EivmfeND9dj_WKuiCs587KguGsJVqZre-94BQ/od6/public/values/drwu7"
+          }
+        ],
+        "gsx$teamname": {
+          "$t": "pollingisshit"
+        },
+        "gsx$othernames": {
+          "$t": ""
+        },
+        "gsx$description": {
+          "$t": "Current polling is slow and inaccurate and lost us the White House. I want to make a text-based polling system that's accurate, cheaper, and easy to deploy frequently so we can get real-time data."
+        },
+        "gsx$issuecategory": {
+          "$t": "Polling"
+        },
+        "gsx$createdat": {
+          "$t": "SF2"
+        },
+        "gsx$contributoremails": {
+          "$t": ""
+        },
+        "gsx$contributorslackhandles": {
+          "$t": ""
+        },
+        "gsx$notes": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/1Wsa8u-EivmfeND9dj_WKuiCs587KguGsJVqZre-94BQ/od6/public/values/dtbek"
+        },
+        "updated": {
+          "$t": "2017-03-22T00:28:57.983Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "reax"
+        },
+        "content": {
+          "type": "text",
+          "$t": "description: Opinion polls were wrong because of people like undercover Trump voters. How to get them to open up and be more honest? Instead of calling and asking and bothering at inconvenient times, respond or “reax” online. Anyone welcome to join, issuecategory: Polling, createdat: SF2"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/1Wsa8u-EivmfeND9dj_WKuiCs587KguGsJVqZre-94BQ/od6/public/values/dtbek"
+          }
+        ],
+        "gsx$teamname": {
+          "$t": "reax"
+        },
+        "gsx$othernames": {
+          "$t": ""
+        },
+        "gsx$description": {
+          "$t": "Opinion polls were wrong because of people like undercover Trump voters. How to get them to open up and be more honest? Instead of calling and asking and bothering at inconvenient times, respond or “reax” online. Anyone welcome to join"
+        },
+        "gsx$issuecategory": {
+          "$t": "Polling"
+        },
+        "gsx$createdat": {
+          "$t": "SF2"
+        },
+        "gsx$contributoremails": {
+          "$t": ""
+        },
+        "gsx$contributorslackhandles": {
+          "$t": ""
+        },
+        "gsx$notes": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/1Wsa8u-EivmfeND9dj_WKuiCs587KguGsJVqZre-94BQ/od6/public/values/dupz1"
+        },
+        "updated": {
+          "$t": "2017-03-22T00:28:57.983Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "outbreak"
+        },
+        "content": {
+          "type": "text",
+          "$t": "description: Identifying news articles that are viral — need data analysts, issuecategory: Spread of information / journalism, createdat: SF2"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/1Wsa8u-EivmfeND9dj_WKuiCs587KguGsJVqZre-94BQ/od6/public/values/dupz1"
+          }
+        ],
+        "gsx$teamname": {
+          "$t": "outbreak"
+        },
+        "gsx$othernames": {
+          "$t": ""
+        },
+        "gsx$description": {
+          "$t": "Identifying news articles that are viral — need data analysts"
+        },
+        "gsx$issuecategory": {
+          "$t": "Spread of information / journalism"
+        },
+        "gsx$createdat": {
+          "$t": "SF2"
+        },
+        "gsx$contributoremails": {
+          "$t": ""
+        },
+        "gsx$contributorslackhandles": {
+          "$t": ""
+        },
+        "gsx$notes": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/1Wsa8u-EivmfeND9dj_WKuiCs587KguGsJVqZre-94BQ/od6/public/values/e7d2q"
+        },
+        "updated": {
+          "$t": "2017-03-22T00:28:57.983Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "ezabsentee"
+        },
+        "content": {
+          "type": "text",
+          "$t": "description: Make it easier for people to register for their absentee ballot. I had to buy envelopes, a stamp, go to post office — it sucked!, issuecategory: Voting, createdat: SF2"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/1Wsa8u-EivmfeND9dj_WKuiCs587KguGsJVqZre-94BQ/od6/public/values/e7d2q"
+          }
+        ],
+        "gsx$teamname": {
+          "$t": "ezabsentee"
+        },
+        "gsx$othernames": {
+          "$t": ""
+        },
+        "gsx$description": {
+          "$t": "Make it easier for people to register for their absentee ballot. I had to buy envelopes, a stamp, go to post office — it sucked!"
+        },
+        "gsx$issuecategory": {
+          "$t": "Voting"
+        },
+        "gsx$createdat": {
+          "$t": "SF2"
+        },
+        "gsx$contributoremails": {
+          "$t": ""
+        },
+        "gsx$contributorslackhandles": {
+          "$t": ""
+        },
+        "gsx$notes": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/1Wsa8u-EivmfeND9dj_WKuiCs587KguGsJVqZre-94BQ/od6/public/values/e8rn7"
+        },
+        "updated": {
+          "$t": "2017-03-22T00:28:57.983Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "voteraid"
+        },
+        "content": {
+          "type": "text",
+          "$t": "description: An app to contact folks from ACLU to show up at polling places to prevent voter intimidation, issuecategory: Voting, createdat: SF2"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/1Wsa8u-EivmfeND9dj_WKuiCs587KguGsJVqZre-94BQ/od6/public/values/e8rn7"
+          }
+        ],
+        "gsx$teamname": {
+          "$t": "voteraid"
+        },
+        "gsx$othernames": {
+          "$t": ""
+        },
+        "gsx$description": {
+          "$t": "An app to contact folks from ACLU to show up at polling places to prevent voter intimidation"
+        },
+        "gsx$issuecategory": {
+          "$t": "Voting"
+        },
+        "gsx$createdat": {
+          "$t": "SF2"
+        },
+        "gsx$contributoremails": {
+          "$t": ""
+        },
+        "gsx$contributorslackhandles": {
+          "$t": ""
+        },
+        "gsx$notes": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/1Wsa8u-EivmfeND9dj_WKuiCs587KguGsJVqZre-94BQ/od6/public/values/ea67k"
+        },
+        "updated": {
+          "$t": "2017-03-22T00:28:57.983Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "polirectory"
+        },
+        "content": {
+          "type": "text",
+          "$t": "description: Crawlers and scrapers, real-time directory of govt representatives and officials, createdat: SF2"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/1Wsa8u-EivmfeND9dj_WKuiCs587KguGsJVqZre-94BQ/od6/public/values/ea67k"
+          }
+        ],
+        "gsx$teamname": {
+          "$t": "polirectory"
+        },
+        "gsx$othernames": {
+          "$t": ""
+        },
+        "gsx$description": {
+          "$t": "Crawlers and scrapers, real-time directory of govt representatives and officials"
+        },
+        "gsx$issuecategory": {
+          "$t": ""
+        },
+        "gsx$createdat": {
+          "$t": "SF2"
+        },
+        "gsx$contributoremails": {
+          "$t": ""
+        },
+        "gsx$contributorslackhandles": {
+          "$t": ""
+        },
+        "gsx$notes": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/1Wsa8u-EivmfeND9dj_WKuiCs587KguGsJVqZre-94BQ/od6/public/values/ebks1"
+        },
+        "updated": {
+          "$t": "2017-03-22T00:28:57.983Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "politix"
+        },
+        "content": {
+          "type": "text",
+          "$t": "description: correlate citizen, lobbyist and representative sentiment towards bills. Data driven journalism., createdat: SF2"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/1Wsa8u-EivmfeND9dj_WKuiCs587KguGsJVqZre-94BQ/od6/public/values/ebks1"
+          }
+        ],
+        "gsx$teamname": {
+          "$t": "politix"
+        },
+        "gsx$othernames": {
+          "$t": ""
+        },
+        "gsx$description": {
+          "$t": "correlate citizen, lobbyist and representative sentiment towards bills. Data driven journalism."
+        },
+        "gsx$issuecategory": {
+          "$t": ""
+        },
+        "gsx$createdat": {
+          "$t": "SF2"
+        },
+        "gsx$contributoremails": {
+          "$t": ""
+        },
+        "gsx$contributorslackhandles": {
+          "$t": ""
+        },
+        "gsx$notes": {
+          "$t": ""
+        }
+      },
+      {
+        "id": {
+          "$t": "https://spreadsheets.google.com/feeds/list/1Wsa8u-EivmfeND9dj_WKuiCs587KguGsJVqZre-94BQ/od6/public/values/e1qt2"
+        },
+        "updated": {
+          "$t": "2017-03-22T00:28:57.983Z"
+        },
+        "category": [
+          {
+            "scheme": "http://schemas.google.com/spreadsheets/2006",
+            "term": "http://schemas.google.com/spreadsheets/2006#list"
+          }
+        ],
+        "title": {
+          "type": "text",
+          "$t": "populi"
+        },
+        "content": {
+          "type": "text",
+          "$t": "description: Make it easier for people to identify champions in the legislature, createdat: SF2"
+        },
+        "link": [
+          {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://spreadsheets.google.com/feeds/list/1Wsa8u-EivmfeND9dj_WKuiCs587KguGsJVqZre-94BQ/od6/public/values/e1qt2"
+          }
+        ],
+        "gsx$teamname": {
+          "$t": "populi"
+        },
+        "gsx$othernames": {
+          "$t": ""
+        },
+        "gsx$description": {
+          "$t": "Make it easier for people to identify champions in the legislature"
+        },
+        "gsx$issuecategory": {
+          "$t": ""
+        },
+        "gsx$createdat": {
+          "$t": "SF2"
+        },
+        "gsx$contributoremails": {
+          "$t": ""
+        },
+        "gsx$contributorslackhandles": {
+          "$t": ""
+        },
+        "gsx$notes": {
+          "$t": ""
+        }
+      }
+    ]
+  }
+}

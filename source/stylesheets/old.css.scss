@@ -44,6 +44,10 @@ blockquote, q {
 a, a:visited, a:focus {
   text-decoration: none; }
 
+h1 {
+  font-size: 2em;
+}
+
 h2{
   font-size: 1.5em;
 }
@@ -225,10 +229,6 @@ h4 {
 }
 
 
-@font-face {
-    font-family: outage;
-    src: url('/fonts/Outage.ttf');
-}
 
 .outage-font {
     font-family: outage;
@@ -253,29 +253,6 @@ h4 {
   padding: 0em .5em .5em 0 !important;
 }
 
-.sponsor-logo {
-  background-size:contain;
-  background-repeat: no-repeat;
-  background-position: center center;
-  display: inline-block;
-  box-sizing: border-box;
-  width: 30%;
-  height: 100px;
-  margin: 0 5%;
-}
-
-#five-hundred {
-  background-image: url('/images/sponsor_500.png');
-}
-#casper {
-  background-image: url('/images/sponsor_casper.png');
-}
-#mongodb {
-  background-image: url('/images/sponsor_mongodb.png');
-}
-#twilio {
-  background-image: url('/images/sponsor_twilio.png');
-}
 
 /* ----------- Retina Screens ----------- */
 @media only screen and (max-width: 800px){
