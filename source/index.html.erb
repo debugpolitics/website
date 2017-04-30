@@ -28,13 +28,7 @@ title: "Home"
   </div>
 </div>
 
-<div class="container" id="upcoming-events">
-  <h2 class="underlined-heading">Upcoming Events</h2>
-  <div class="dp-event" id="la-event">
-    <p class="event-date">Apr 28th-30th</p>
-    <p class="event-name">Los Angeles Hackathon</p>
-  </div>
-</div>
+<%= partial "partials/upcoming_events", locals: { only_last: true } %>
 
 <div class="container" id="coverage">
   <h2 class="underlined-heading">Coverage</h2>
@@ -48,26 +42,26 @@ title: "Home"
   <div class="container" id="sp-logos">
     <div class="row">
       <div class="col-md col-6">
-        <a href="https://www.twilio.com/">
+        <a href="https://www.twilio.com/" target="_blank">
           <div id="twilio" class="sp-logo"></div>
         </a>
       </div>
       <div class="col-md col-6">
-        <a href="https://500.co/">
+        <a href="https://500.co/" target="_blank">
           <div id="five-hundred" class="sp-logo"></div>
         </a>
       </div>
       <div class="col-md col-6" >
-        <a href="https://casper.com/">
+        <a href="https://casper.com/" target="_blank">
           <div id="casper" class="sp-logo"></div>
         </a>
       </div>
       <div class="col-md col-6">
-        <a href="https://www.mongodb.com/">
+        <a href="https://www.mongodb.com/" target="_blank">
          <div id="mongodb" class="sp-logo"></div>
         </a>
       </div>
     </div>
-    <p>We are always looking for more sponsors. <a href="mailto:hello@debugpolitics.com">Become one today!</a></p>
+    <p>We are always looking for more sponsors. <a class="gray-link" href="mailto:hello@debugpolitics.com">Become one today!</a></p>
   </div>
 </div>

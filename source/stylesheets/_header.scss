@@ -17,3 +17,14 @@ header {
     }
   }
 }
+
+@media (max-width: 991px) {
+  header {
+    ul {
+      li {
+        padding-top: 15px;
+        display: block;
+      }
+    }
+  }
+}

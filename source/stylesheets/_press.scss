@@ -13,3 +13,23 @@
   margin-top: 7px;
   margin-bottom: 60px;
 }
+
+#press-page {
+  h3 {
+    font-size: 18px;
+  }
+}
+
+
+/**
+ * Responsive
+ */
+@media (max-width: 575px) {
+  #press-page {
+    text-align: center;
+
+    #featured-article-image {
+      padding-bottom: 24px;
+    }
+  }
+}
