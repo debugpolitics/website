@@ -1,4 +1,4 @@
-<% 
+<%
   events = [
     {
       location: "Los Angeles",
@@ -22,7 +22,7 @@
 %>
 
 <div class="container" id="upcoming-events">
-  <h2 class="underlined-heading">Upcoming Events</h2>
+  <h2 class="underlined-heading">Events</h2>
   <% events.each do |event| %>
     <div class="dp-event" id="<%= event[:id] %>-event">
       <p class="event-date"><%= event[:date] %></p>
