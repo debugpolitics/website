@@ -1,10 +1,39 @@
 <%
   events = [
     {
-      location: "Los Angeles",
-      date: "Apr 28th-30th",
-      href: "https://www.eventbrite.com/e/debug-politics-1st-la-hackathon-tickets-29491780710",
+      location: "San Francisco Anniversary Hackathon",
+      date: "November 17th-19th",
+      href: "",
+      status: "Details",
       id: 'la',
+    },
+    {
+       location: "Los Angeles Hackathon",
+       date: "April 28th-30th",
+       href: "https://www.facebook.com/debugpolitics/videos/461211447551893/",
+       status: "Demos",
+       id: 'la',
+    },
+    {
+       location: "New York Hackathon",
+       date: "January 13th-15h",
+       href: "https://www.facebook.com/debugpolitics/videos/408215309518174/",
+       status: "Demos",
+       id: 'boston'
+    },
+    {
+       location: "San Francisco II Hackathon",
+       date: "December 10th-11th",
+       href: "https://www.facebook.com/debugpolitics/videos/391124837893888/",
+       status: "Demos",
+       id: 'la'
+    },
+    {
+       location: "San Francisco Hackathon",
+       date: "November 29th-30th",
+       href: "https://www.facebook.com/debugpolitics/videos/384612628545109/",
+       status: "Demos",
+       id: 'la'
     }
   ]
 
@@ -16,10 +45,12 @@
   <% events.each do |event| %>
     <div class="dp-event" id="<%= event[:id] %>-event">
       <p class="event-date"><%= event[:date] %></p>
-      <p class="event-name"><%= event[:location] %> Hackathon</p>
+      <p class="event-name"><%= event[:location] %></p>
       <% if event[:href] %>
-      <p><a href="<%= event[:href] %>" class="btn btn-secondary">RSVP</a></p>
+      <p><a href="<%= event[:href] %>" class="btn btn-secondary"><%= event[:status] %></a></p>
       <% end %>
     </div>
   <% end %>
 </div>
+
+<!-- RSVP -->
