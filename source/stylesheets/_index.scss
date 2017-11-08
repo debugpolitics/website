@@ -28,9 +28,33 @@
   }
 }
 
+#vision {
+  hr {
+    width: 100px;
+    margin: 5px 0px;
+    margin-left: calc(50% - 50px);
+    color: #5A5A5A;
+  }
+}
+
+#vision, #mission {
+  margin: 0 auto;
+  text-align: center;
+  h3 {
+    color: #b7b7b7;
+  }
+}
+
+#about-dp, #who-we-are {
+  .row {
+    margin-bottom: 2em;
+  }
+}
+
 #about-dp-desc {
   padding-left: 50px;
 }
+
 
 #sponsors {
   background-color: $dp-background-gray;
