@@ -1,6 +1,5 @@
 <div class="container">
-  <h1 class="center">Tech + Politics + Society + You 2017 Hackathon</h1>
-  <h2 class="underlined-heading less-padding-top">Topic Tracks</h2>
+  <%= partial "partials/tech_plus_header", locals: {title: "Topic Tracks"} %>
   <p class="center">
     A hallmark of our tech+politics hackathons is the all out pace that starts with Friday night pitches and
     goes through Sunday’s showcase. We LOVE it—but for this special hackathon we’re pre-connecting like-minded participants who are ready to dig into projects of mutual interest—and connecting all to track leaders and experts with topic knowledge. <strong>Applicants to Tech+ 2017 will be asked to rank their top three (3) track choices and pre-notified of their track assignment prior to the event weekend.</strong>
@@ -32,9 +31,8 @@
   </p>
   
   <%= partial 'partials/more_about_tech_plus', locals: { current_page: "topics"} %>
-  <p>
-    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfPMmf2rY9-dA0BXxZFZj7eN_WepmKvIkCjYtd-huVMng_FMA/viewform" class="btn btn-primay">Apply</a>
-  </p>
+  <%= partial 'partials/apply_button' %>
+  <%= partial 'partials/partners_and_sponsors' %>
 
 
 </div>

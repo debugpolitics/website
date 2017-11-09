@@ -57,6 +57,10 @@ body {
   line-height: 1.5;
 }
 
+div.center {
+  text-align: center;
+}
+
 p {
   font-family: opensans-light;
   font-size: 18px;
@@ -70,6 +74,10 @@ span {
     text-align: center;
     display: block;
   }
+}
+
+button:hover {
+  cursor: pointer;
 }
 
 footer {
