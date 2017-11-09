@@ -18,6 +18,9 @@ h2 {
   margin: 2em 0;
   text-align: center;
   padding-top: 40px;
+  &.less-padding {
+    padding-top: 0px;
+  }
 }
 
 .underlined-heading:after {

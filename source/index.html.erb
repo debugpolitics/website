@@ -1,18 +1,15 @@
-<div id="home-top" class="container">
+<div id="home-top" class="container-fluid">
   <h1>Debug Politics</h1>
   <p>Converting the tech community’s civic angst into meaningful civic action</p>
 </div>
 
-<div class="container" id="about-dp">
-  <h2 class="underlined-heading">About Debug Politics</h2>
-
+<div class="container" id="mission-and-vision">
   <!-- TODO figure out why the <h3> is bigger than the <h2> -->
   <div class="row">
     <div class="col-lg-6" id="vision">
       <h3>OUR VISION</h3>
-      <div>
-        <h2>ACTION</h2>
-        <hr class="vision"/>
+      <div id="action-logo-wrapper">
+        <h2 id="action">ACTION</h2>
         <h2>ANGST</h2>
       </div>
     </div>
@@ -20,15 +17,16 @@
   <div class="row">
     <div class="col-lg-6" id="mission">
       <h3>OUR MISSION</h3>
-      <h2>To transform tech community frustration into a catalyst for civic change.</h2>
+      <h2>To transform tech community frustration <br /> into a catalyst for civic change.</h2>
     </div>
   </div>
 </div>
 
-<%= partial "partials/upcoming_events", locals: { only_last: true } %>
+<!-- TODO add this back in when new events page read -->
+<!-- <%= partial "partials/upcoming_events", locals: { only_last: true } %> -->
 
 <div class="container" id="who-we-are">
-  <h2 class="underlined-heading">Who we are</h2>
+  <h2 class="underlined-heading less-padding">About Debug Politics</h2>
 
   <div class="row">
     <p>
@@ -42,9 +40,12 @@
         <h2>Want to know what’s next for Debug Politics?</h2>
       </div>
       <div>
-        <a href="http://www.debugpolitics.us14.list-manage.com/subscribe/post?u=b9b3405c6d0605a286b96d3d5&amp;id=8d0320fee5" class="btn btn-primary">Join us</a>
-        <h2> or </h2>
-        <%= partial "partials/social_icons" %>
+        <div>
+          <a href="http://www.debugpolitics.us14.list-manage.com/subscribe/post?u=b9b3405c6d0605a286b96d3d5&amp;id=8d0320fee5" class="btn btn-primary">Join us</a>
+        </div>
+        <div><h2> or </h2></div>
+        <div><h3> Get Social! <h3></div>
+        <div><%= partial "partials/social_icons" %></div>
       </div>
     </div>
   </div>
