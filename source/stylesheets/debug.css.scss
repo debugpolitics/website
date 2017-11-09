@@ -60,11 +60,16 @@ body {
 p {
   font-family: opensans-light;
   font-size: 18px;
+  &.center {
+    text-align: center;
+  }
 }
 
-li {
-  list-style: none;
-  float: left;
+span {
+  &.center {
+    text-align: center;
+    display: block;
+  }
 }
 
 footer {
