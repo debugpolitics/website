@@ -57,9 +57,27 @@ body {
   line-height: 1.5;
 }
 
+div.center {
+  text-align: center;
+}
+
 p {
   font-family: opensans-light;
   font-size: 18px;
+  &.center {
+    text-align: center;
+  }
+}
+
+span {
+  &.center {
+    text-align: center;
+    display: block;
+  }
+}
+
+button:hover {
+  cursor: pointer;
 }
 
 footer {
@@ -72,6 +90,16 @@ footer {
   &:hover {
     border-bottom: 1px solid $dp-light-gray;
   }
+}
+
+.placeholder {
+  border: 1px solid black;
+}
+
+.clearfix {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 @import 'header';
