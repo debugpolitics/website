@@ -1,6 +1,6 @@
 #home-top {
   background: url('/images/home-top-bg.png');
-  height: 300px;
+  height: 457px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -9,7 +9,7 @@
 
   h1 {
     text-transform: uppercase;
-    padding-top: 65px;
+    padding-top: 146px;
     font-family: outage;
     text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
     font-size: 42px;
@@ -20,10 +20,6 @@
     font-family: opensans-semibold;
     font-size: 22px;
   }
-  
-  u {
-    color: white;
-  }
 
   .btn-primary {
     width: 173px;
@@ -32,49 +28,8 @@
   }
 }
 
-#vision, #mission {
-  margin: 0 auto;
-  text-align: center;
-  h3 {
-    color: #b7b7b7;
-  }
-}
-
-#action-logo-wrapper {
-  margin-top: 15px;
-}
-
-#mission-and-vision {
-  div:first-child {
-    margin-top: 1.5em;
-    margin-bottom: 1em;
-  }
-}
-
-#mission-and-vision-desc {
+#about-dp-desc {
   padding-left: 50px;
-}
-
-#action:after {
-  background: none repeat scroll 0 0 #b7b7b7;
-  bottom: -.4em;
-  content: "";
-  display: block;
-  height: 3px;
-  width: 148px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#cta {
-  text-align: center;
-  width: 100%;
-  div {
-    margin-bottom: 10px;
-  }
-  a {
-    margin-top: 15px;
-  }
 }
 
 #sponsors {
