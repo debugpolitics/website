@@ -24,4 +24,10 @@
       background-color: rgba(255, 255, 255, 0.7);
     }
   }
+
+  &.big-button {
+    width: 20em;
+    height: 3em;
+    line-height: 1.5em;
+  }
 }
