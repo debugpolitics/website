@@ -72,6 +72,14 @@ p {
   }
 }
 
+tr.center {
+  display: flex;
+  justify-content: center;
+  td {
+    text-align: center;
+  }
+}
+
 span {
   &.center {
     text-align: center;
@@ -119,3 +127,4 @@ li {
 @import 'index';
 @import 'events';
 @import 'press';
+@import 'luminaries';

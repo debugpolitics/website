@@ -1,9 +1,29 @@
+<% luminaries = { %>
+  <% judges: [ %>
+    <% { placeholder: "Judge", image: nil}, %>
+    <% { placeholder: "Judge", image: nil}, %>
+    <% { placeholder: "Judge", image: nil} %>
+  <% ], %>
+  <% track_names: [ %>
+    <% { placeholder: "+Crisis", image: nil}, %>
+    <% { placeholder: "+Democracy", image: nil}, %>
+    <% { placeholder: "+Immigration", image: nil}, %>
+    <% { placeholder: "+Media", image: nil}, %>
+    <% { placeholder: "+Society", image: nil} %>
+  <% ] %>
+<% } %>
+
 <div class="container">
   <%= partial "partials/tech_plus_header", locals: {title: "Luminaries"} %>
-  <p class="center">
-    Bookmark this page and also watch Facebook, Twitter, and Instagram<br />
-    for programming updates and speaker confirmations.
-  </p>
+  <table style="width: 100%">
+    <% luminaries.keys.each do |key| %>
+      <tr class="center">
+        <% luminaries[key].each do |luminary_attrs| %>
+          <%= partial "partials/luminary", locals: luminary_attrs %>
+        <% end %>
+      </tr>
+    <% end %>
+  </table>
   <%= partial "partials/more_about_tech_plus", locals: { current_page: "luminaries" } %>
   <!-- <%= partial "partials/apply_button" %> -->
   <%= partial "partials/partners_and_sponsors" %>
