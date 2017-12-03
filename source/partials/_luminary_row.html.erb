@@ -1,0 +1,9 @@
+<td>
+  <% if (image.nil?) %>
+    <div class="luminary-placeholder"><%= placeholder %></div>
+  <% else %>
+    <div class="luminary-placeholder" style="<%="background-image: url('/images/#{image}')" %>"></div>
+    <% labelInfo = label || "" %>
+    <div><%= labelInfo %></div>
+  <% end %>
+</td>

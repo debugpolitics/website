@@ -1,27 +1,64 @@
 <% luminaries = { %>
   <% judges: [ %>
-    <% { placeholder: "Judge", image: nil}, %>
-    <% { placeholder: "Judge", image: nil}, %>
-    <% { placeholder: "Judge", image: nil} %>
+    <% { placeholder: "Judge", image: nil }, %>
+    <% { placeholder: "Judge", image: nil }, %>
+    <% { placeholder: "Judge", image: nil } %>
   <% ], %>
   <% track_names: [ %>
-    <% { placeholder: "+Crisis", image: nil}, %>
-    <% { placeholder: "+Democracy", image: nil}, %>
-    <% { placeholder: "+Immigration", image: nil}, %>
-    <% { placeholder: "+Media", image: nil}, %>
-    <% { placeholder: "+Society", image: nil} %>
-  <% ] %>
+    <% { placeholder: "+Crisis", image: nil }, %>
+    <% { placeholder: "+Democracy", image: nil }, %>
+    <% { placeholder: "+Immigration", image: nil }, %>
+    <% { placeholder: "+Media", image: nil }, %>
+    <% { placeholder: "+Society", image: nil } %>
+  <% ], %>
+  <% track_leads: [ %>
+    <% [{ placeholder: "+Crisis leads", image: nil }], %>
+    <% [{ placeholder: "+Democracy leads", image: 'charles_belle.jpeg', label: "Charles Belle
+    <br /> Startup Policy Lab" }], %>
+    <% [{ placeholder: "+Immigration leads", image: nil }], %>
+    <% [{ placeholder: "+Media leads", image: nil }], %>
+    <% [{ placeholder: "+Society leads", image: nil }] %>
+  <% ], %>
+  <% challenge_partner_logos: [ %>
+    <% { placeholder: "+Crisis logo", image: nil }, %>
+    <% { placeholder: "+Democracy logo", image: nil }, %>
+    <% { placeholder: "+Immigration logo", image: nil }, %>
+    <% { placeholder: "+Media logo", image: nil }, %>
+    <% { placeholder: "+Society logo", image: nil } %>
+  <% ], %>
+  <% challenge_partner_rep_pics: [ %>
+    <% { placeholder: "+Crisis rep pic", image: nil }, %>
+    <% { placeholder: "+Democracy leads", image: 'e_john_seebs.jpeg', label: "John Seebs <br /> OSET" }, %>
+    <% { placeholder: "+Immigration rep pic", image: nil }, %>
+    <% { placeholder: "+Media rep pic", image: nil }, %>
+    <% { placeholder: "+Society rep pic", image: nil } %>
+  <% ], %>
+  <% challenge_questions: [ %>
+    <% { placeholder: "+Crisis challenge question", image: nil }, %>
+    <% { placeholder: "Democracy is about elections. No, it's about voting. Wait. Maybe it's voter registration. Don't forget voter data. Oh, data security. And campaigns, and campaign finance, and advertisting, and transparency. Tech + Democracy--led by Startup Policy Lab and the Open Source Election Technology (OSET) Institute--is not going to be short on conversation. From Virgina to Alabama to 2018...our civic processes and the tech that drives them, is tested, tried, and on display every day. This track should be the first choice for anyone interested in the big picture challenges about the role of technology in a democracy.", image: nil }, %>
+    <% { placeholder: "+Immigration challenge question", image: nil }, %>
+    <% { placeholder: "+Media challenge question", image: nil }, %>
+    <% { placeholder: "Our Tech + Society Track will be led by the amazingly talented Jonathan Hung and Julia Kramer of Reflex Design Collective! RDC focuses on solving 'wicked' (read (really): Rittel & Webber) problems that exist in the world today. Register to contribute to their project at:", image: nil } %>
+  <% ], %>
 <% } %>
 
 <div class="container">
   <%= partial "partials/tech_plus_header", locals: {title: "Luminaries"} %>
   <table style="width: 100%">
     <% luminaries.keys.each do |key| %>
-      <tr class="center">
-        <% luminaries[key].each do |luminary_attrs| %>
-          <%= partial "partials/luminary", locals: luminary_attrs %>
-        <% end %>
-      </tr>
+      <% if (luminaries[key].first.is_a?(Hash)) %>
+        <tr class="center">
+          <% luminaries[key].each do |luminary_attrs| %>
+            <%= partial "partials/luminary_row", locals: luminary_attrs %>
+          <% end %>
+        </tr>
+      <% elsif (luminaries[key].first.is_a?(Array)) %>
+        <tr class="center" id="<% "#{key}" %>">
+          <% luminaries[key].each do |content_arr| %>
+            <%= partial "partials/luminary_column", locals: { content: content_arr } %>
+          <% end %>
+        </tr>
+      <% end %>
     <% end %>
   </table>
   <%= partial "partials/more_about_tech_plus", locals: { current_page: "luminaries" } %>
