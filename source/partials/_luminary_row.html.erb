@@ -2,7 +2,9 @@
   <% if (image.nil?) %>
     <div class="luminary-placeholder" style="<%= options[:header] ? "height: 50px" : "" %>"><%= placeholder %></div>
   <% else %>
-    <div class="luminary-placeholder" style="<%="background: url('/images/#{image}') no-repeat #{options[:center_horizontal] ? "center" : "left"} center;" %>"></div>
+    <div class="luminary-background">
+      <div class="luminary-picture" style="<%="background: url('/images/#{image}') no-repeat #{options[:center_horizontal] ? "center" : "left"} center;" %>"></div>
+    </div>
     <% labelInfo = label || "" %>
     <div><%= labelInfo %></div>
   <% end %>
