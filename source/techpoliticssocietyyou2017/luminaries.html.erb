@@ -36,6 +36,14 @@
     <% [{ placeholder: "+Society lightening lectures", image: 'elyce_haut.png', label: "Elyce Haut", options: {} }, { placeholder: "+Society lightening lectures", image: 'michael_rouppet.png', label: "Michael Rouppet", options: {} }] %>
   <% ], %>
 <% } %>
+<% panel_placeholders = [ %>
+  <% { placeholder: "Tech Plus Panel 1", image: nil, label: "", options: { compressed: true } }, %>
+  <% { placeholder: "Tech Plus Panel 2", image: nil, label: "", options: { compressed: true } }, %>
+  <% { placeholder: "Tech Plus Panel 3", image: nil, label: "", options: { compressed: true } }, %>
+  <% { placeholder: "Tech Plus Panel 4", image: nil, label: "", options: { compressed: true } }, %>
+  <% { placeholder: "Tech Plus Panel 5", image: nil, label: "", options: { compressed: true } }, %>
+  <% { placeholder: "Tech Plus Panel 6", image: nil, label: "", options: { compressed: true } }, %>
+<% ] %>
 
 <div class="container">
   <%= partial "partials/tech_plus_header", locals: {title: "Luminaries"} %>
@@ -56,6 +64,16 @@
       <% end %>
     <% end %>
   </table>
+  <table style="width: 100%">
+    <tr class="center">
+      <% panel_placeholders.each do |panel_attrs| %>
+        <% puts panel_attrs %>
+        <%= partial "partials/luminary_row", locals: panel_attrs %>
+      <% end %>
+    </tr>
+  </table>
+      
+    
   <%= partial "partials/more_about_tech_plus", locals: { current_page: "luminaries" } %>
   <!-- <%= partial "partials/apply_button" %> -->
   <%= partial "partials/partners_and_sponsors" %>
