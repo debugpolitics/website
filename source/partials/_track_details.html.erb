@@ -23,16 +23,20 @@
     <p><span></span></p>
     <p><span></span></p>
   <% end %>
+  <% if (reference_material_links.length > 0) %>
   <p><h2>Reference Material:</h2></p>
   <ul class="sq">
     <% reference_material_links.each do |link| %>
       <li><a href="<%= link %>"><%= link %></a></li>
     <% end %>
   </ul>
+  <% end %>
+  <% if (data_source_links.length > 0) %>
   <p><h2>Data Sources: </h2></p>
   <ul class="sq">
     <% data_source_links.each do |link| %>
       <li><a href="<%= link %>"><%= link %></a></li>
     <% end %>
   </ul>
+  <% end %>
 </div>
