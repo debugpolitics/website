@@ -1,0 +1,38 @@
+<div class="container">
+  <% challenges.each do |challenge| %>
+    <p><h2><%= challenge[:main_text] %></p></h2>
+    <p><span></span></p>
+    <% challenge[:detail_paragraphs].each do |detail| %>
+      <% unless detail.is_a?(Array) %>
+        <p><span><%= detail %></span></p>
+      <% else %>
+        <ol start="1">
+          <% detail.each do |item| %>
+            <li><span><%= item %></span></li>
+          <% end %>
+        </ol>
+      <% end %>
+      <p><span></span></p>
+    <% end %>
+    <p><h3 class="tech-plus" id="tech-plus-title">Links of interest:</h3></p>
+    <ul>
+      <% challenge[:links].each do |link| %>
+        <li><span><a href="<%= link %>"><%= link %></a></span></li>
+      <% end %>
+    </ul>
+    <p><span></span></p>
+    <p><span></span></p>
+  <% end %>
+  <p><h2>Reference Material:</h2></p>
+  <ul class="sq">
+    <% reference_material_links.each do |link| %>
+      <li><a href="<%= link %>"><%= link %></a></li>
+    <% end %>
+  </ul>
+  <p><h2>Data Sources: </h2></p>
+  <ul class="sq">
+    <% data_source_links.each do |link| %>
+      <li><a href="<%= link %>"><%= link %></a></li>
+    <% end %>
+  </ul>
+</div>
