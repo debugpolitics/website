@@ -1,0 +1,16 @@
+<% challenges = [ %>
+  <% { %>
+    <% main_text: 'Challenge: How might participants create organizing tools and support for Safe Organized Spaces as alternatives to encampments?', %>
+    <% detail_paragraphs: ['The Tech+Society challenge is very simple and straightforward.  How can we allocate more resources to giving people a safe place to sleep than we spend on breaking up their camps.'], %>
+    <% links: ['https://docs.google.com/presentation/d/1Y8dblHOcaGgAxAjpUJ71q8Sam7w7DoDW7lRTbz_BNDQ/edit#slide=id.g256c4a85d4_0_306','http://map.saintfrancischallenge.org/'] %>
+  <% } %>
+<% ] %>
+
+<% reference_material_links = [] %>
+
+<% data_source_links = [] %>
+
+<div class="container">
+  <%= partial "partials/tech_plus_header", locals: {title: "Track 4: Tech + Society"} %>
+  <%= partial "partials/track_details", locals: {challenges: challenges, reference_material_links: reference_material_links, data_source_links: data_source_links } %>
+</div>
