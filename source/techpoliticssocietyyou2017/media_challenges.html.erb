@@ -1,24 +1,339 @@
 <% challenges = [ %>
   <% { %>
     <% main_text: 'Challenge #1: Dis/misinformation and systems that support it are everywhere. We have no way of cataloguing this.', %>
-    <% detail_paragraphs: ['We know that social media sources provide vital information for rescuers &ndash; both formal first responders and community responders &ndash; to help residents needing assistance throughout a disaster area. 9-1-1 architecture can be overwhelmed and damaged in disaster events and social media has been shown to augment this overwhelm by providing alternative means of communication.', 'Additionally apps like Zello &ndash; a point to point radio application &ndash; and other tools (google, open street map, etc) can make response groups like the Cajun Navy, community response organizations, open mapping projects and Virtual Operations Support Teams (VOSTs).', 'How might social media be used by formal responders to better help residents in need when 9-1-1 architecture becomes overwhelmed? How might these two types of organizations partner better to protect residents during an emergency?'], %>
-    <% links: ['https://storyful.com/blog/2017/09/07/power-emergency-crowdsourcing-social-media-helped-rescuers-harvey/', 'http://www.sandiegouniontribune.com/opinion/the-conversation/sd-hurricane-harvey-5-ways-social-media-helped-rescue-efforts-20170828-htmlstory.html', 'http://blog.digitalglobe.com/news/open-data-for-hurricane-maria-relief-efforts/', 'https://www.fastcompany.com/40504633/people-are-turning-to-snapchat-to-map-out-the-southern-california-wildfires', 'https://www.buzzfeed.com/briannasacks/california-officials-vow-to-re-evaluate-alerts?utm_term=.pmQddLDEN#.osQYYrLng', 'https://www.fastcompany.com/40459641/from-katrina-to-harvey-how-disaster-relief-is-evolving-with-technology'] %>
+    <% detail_paragraphs: [<<L1
+<h3 class="subheading">Project #1: DisinfoHub</h3>
+<ul class="projects">
+  <li>Focus:</li>
+  	<ul><li>Creating a registry for known disinformation accounts and content</li></ul>
+  <li>High-level goals:</li>
+  <ul>
+    	<li>To create a catalogue of disinformation that can be modified and updated</li>
+    	<li>To identify on the basis of URLs, Twitter usernames, social media, etc</li>
+  </ul>
+  <li>Data (APIs) available:</li>
+  	<ul>
+      <li>Initial research and data modeling conducted by Aviv</li>
+    	<li>Social media and other news API resources for content (online archives)</li>
+    </ul>
+  <li>Specific deliverables:</li>
+  	<ul>
+      <li>Catalogue of disinformation for use by researchers</li>
+    	<li>API or CSV that allows for querying specific actors</li>
+    	<li>Process for adding new data (and vetting/approving it)</li>
+    	<li>Plan for getting this in front of people actively researching disinfo</li>
+    </ul>
+  <li>Example team constitution:</li>
+  	<ul>
+      <li>Policy/media gen’list (2) - to vet sources, identify how to gather/maintain</li>
+    	<li>Researcher		- to dive further into potential sources for identification</li>
+    	<li>Backend/API eng	- to develop a database of suspect content/accounts</li>
+    	<li>Web/API engineer	- to develop interfaces to external APIs, process data</li>
+    	<li>Web or UI developer 	- for interface for searching for content/accounts</li>
+    	<li>Designer		- for designing the interface</li>
+    </ul>
+  </ul>
+  <h3 class="subheading">Project #2: Flaws in the Systems</h3>
+  <ul class="projects">
+    <li>Focus: </li>
+      <ul>
+    	 <li>Crowdsourcing tracking of flaws in systems that lead to disinfo (like BBB)</li>
+      </ul>
+    <li>High-level goals: </li>
+    	<ul>
+        <li>To track platform issues that exacerbate spread of of mis/disinformation</li>
+      	<li>Create a single location for researchers/journalists/etc to reference</li>
+      	<li>To see metrics on resolution time, crowdsourced identification/prioritization</li>
+      </ul>
+    <li>Data (APIs) available: </li>
+    	<ul>
+        <li>Adapt existing open-source ticketing system. Think UserVoice/Zendesk</li>
+      	<li>Expertise of researchers present at the event to represent application needs</li>
+      </ul>
+    <li>Specific deliverables:</li>
+    	<ul>
+        <li>To develop a ticketing system that works for tracking disinformation</li>
+      	<li>Adaptation of an existing open source system</li>
+      	<li>Process for adding new tickets</li>
+      	<li>Plan for getting this in front of people actively researching disinfo</li>
+      </ul>
+    <li>Example team constitution:</li>
+    	<ul>
+        <li>Policy/media gen’list (2) - to identify needs of research community in tracking</li>
+      	<li>Engineering gen’list	- to identify an effective open source ticketing system</li>
+      	<li>Web or UI developer 	- for modifying ticketing system interface for disinfo use</li>
+      	<li>Designer		- for designing the interface</li>
+      </ul>
+  </ul>
+L1
+      ], %>
+    <% links: ['https://data.world/d1gi/missing-fb-posts-w-share-stats'] %>
   <% }, %>
   <% { %>
-    <% main_text: 'Challenge #2: Alternate Method for Critical Communications When Wireless Communications Systems are Overloaded or Unavailable.', %>
-    <% detail_paragraphs: ['In today&rsquo;s day and age, smartphones ownership is outpacing landline phones ownership across the United States (see CDC study https://www.cdc.gov/nchs/data/nhis/earlyrelease/wireless201705.pdf). &nbsp;Cell phones are increasingly the mechanism that residents use to get help during emergencies, provide updates to loved ones on their status and whereabouts during major events (via social media and the like) , and even get critical alerts from government officials on safety precautions, avoiding areas, and shelter locations. &nbsp;These wireless networks, are more and more considered critical infrastructure, and local agencies have to rely on private companies (like AT&amp;T, Verizon, Sprint) to ensure they are available during emergency events. &nbsp; But as we saw in the Sonoma Wildfires, these networks are susceptible, vulnerable to natural and man-made events, and may not be available during these emergency times.', 'The problem statement becomes, what is a solution for residents to still be able to communicate when the critical infrastructure is down?', 'There are applications that can create mesh networks &ndash; using peer to peer communications. &nbsp;These were used in Hong Kong (Sept. 2014) during the Umbrella Movement, as a way for protesters to organize themselves, without having to rely on the cellphone infrastructure. &nbsp;The application, FireChat, created an &ldquo;off the grid&rdquo; messaging system that didn&rsquo;t need towers to operate. &nbsp;But how can these types of tools be deployed and adopted by local residents and potentially government during emergency situations?'], %>
-    <% links: ['http://time.com/3449812/hong-kong-protesters-firechat/', 'https://www.technologyreview.com/s/516571/build-your-own-internet-with-mobile-mesh-networking/', 'https://computer.howstuffworks.com/how-wireless-mesh-networks-work.htm'] %>
+    <% main_text: 'Challenge #2: Media is biased. We don’t always know how.', %>
+    <% detail_paragraphs: [<<L1
+      <h3 class="subheading">Project #3: Behind The “Fair And Balanced”</h3>
+      <ul class="projects">
+      <li>Focus: </li>
+      <ul>
+      	<li>Biases and emotional appeals/language in articles</li>
+      </ul>
+      <li>High-level goals: </li>
+      <ul>
+      	<li>To identify bias in articles using similarly tagged articles OR</li>
+      	<li>To investigate how extreme language adds to bias using sentiment analysis OR</li>
+      	<li>To provide resources (e.g. Snopes) to address potential misrepresentations</li>
+      </ul>
+      <li>Data (APIs) available: </li>
+      <ul>
+      	<li>Corpus of articles tagged with publication biases (Spectrum)</li>
+      	<li>Sentiment analysis APIs for measuring emotion (External or your own model)</li>
+      </ul>
+      <li>Specific deliverables:</li>
+      <ul>
+      	<li>Algorithm to identify bias in an article…</li>
+      	<li>...through comparison against tagged corpus of biased articles OR</li>
+      	<li>...through emotional valence/sentiment analysis OR</li>
+      	<li>…through identifying external sources that can identify misleading narratives</li>
+      	<li>Interface for submitting URLs/getting report on bias/emotions in article</li>
+      </ul>
+      <li>Example team constitution:</li>
+      <ul>
+      	<li>ML/NLP engineer	- to develop bias algorithm</li>
+      	<li>Data scientist		- for algo work on sentiment analysis, NLP help, etc</li>
+      	<li>Web/API engineer	- to develop interfaces to external APIs, process data</li>
+      	<li>Designer		- for interface for getting a bias report</li>
+      	<li>Policy/media expert (x2)- to vet bias outputs, identify ‘bias words’/emotions</li>
+      </ul>
+      <li>Example output: </li>
+      <ul>
+        <li>Fact Check: <a href='http://www.breitbart.com/big-government/2017/11/20/fact-check-hillary-clinton-gets-uranium-one-donors-mixed-up/'>Hillary Clinton Gets Uranium One Donors Mixed Up</a></li>
+        <li>Publication: Breitbart News (Far right)</li>
+        <li>Bias indicators: Focus on uranium deal, ‘Scandal’, negative on Clintons</li>
+        <li>Most extreme paragraph: </li>
+        <li>“Hillary Clinton got her facts wrong Friday when she was discussing the brewing Uranium One scandal on a radio show — apparently mixing up her megadonors when responding to accusations of pay-to-play when she was secretary of state.”</li>
+        <li>Snopes/fact check notes: A number of misrepresentations and falsities surround the Uranium One deal. Read more about the facts   </li>
+      </ul>
+    </ul>
+<h3 class="subheading">Project #4: Know Your Source</h3>
+<ul class="projects">
+  <li>Focus: </li>
+  <ul>
+    <li>Individual media outlets OR Individual reporters and commentators</li>
+  </ul>
+  <li>High-level goals:</li>
+  <ul>
+    <li>To show bias + unreliability of reporters/outlets through their history, focus OR</li>
+    <li>To provide an automated guide to reporters and columnists</li>
+  </ul>
+  <li>Data (APIs) available:</li>
+  <ul>
+    <li>Endpoint for articles (authors tagged), either by pub or by reporter (Spectrum)</li>
+    <li>APIs for social media, reputation, Wikipedia, for metadata (External)</li>
+  </ul>
+  <li>Specific deliverables:</li>
+  <ul>
+    <li>Searchable web profiles for sources OR visualization on data</li>
+    <li>Identification of subjects the source focuses on + their bias</li>
+    <li>Identification of source’s top (or most extreme) articles (e.g. by comments/likes)</li>
+  </ul>
+  <li>Example team constitution:</li>
+  <ul>
+    <li>UI developer 		- for web profiles or visualization</li>
+    <li>Policy/media expert	- to vet outputs, identify more resources</li>
+    <li>Marketer/social expert	- to find social media sources</li>
+    <li>Data scientist (x2) 	- to identify/categorize subjects/biases</li>
+    <li>Full-stack developer	- to scrape/connect additional sources (e.g. Twitter)</li>
+  </ul>
+  <li>Example output:</li>
+  <ul>
+    <li>Paul Krugman (Author for: New York Times, Fortune, Slate)</li>
+    <ul>
+      <li>Topical focus: Economics, taxation, income inequality. Bias: Liberal</li>
+      <li>Articles count: 1,250. Avg. unique words count: 439</li>
+      <li>Publication Rank (combination of Alexa score of publications, publication frequency, social media metrics, etc)</li>
+      <li>Top articles / Twitter page / Wikipedia, etc</li>
+    </ul>
+    <li>You might also focus on the following for outlets, among others: Specific topics covered versus what is generally covered, publication frequency, alexa scores, party mentions, personality figure focuses, count of different words, length of sentences, speech sophistication (e.g. Flesch-Kincaid score), ads, links</li>
+  </ul>
+</ul>
+L1
+    ], %>
+    <% links: ['https://www.google.com/url?q=http://cs229.stanford.edu/proj2016spr/report/059.pdf&sa=D&ust=1512845943191000&usg=AFQjCNEbPSGczCgF_2U-FL4s3U6JaDF8SQ',
+      'https://datascience.berkeley.edu/data-media-map-bitly/'] %>
   <% }, %>
   <% { %>
-    <% main_text: 'Challenge #3: Modernizing the Wireless Emergency Alerting System', %>
-    <% detail_paragraphs: ['Limitations on the current WEA system:', ['Lack of Geo-targeting &ndash; and no front end/GUI tool with geo-fencing ability', '90 Character limitation with no ability to do embedded links or attachments', 'No ability to transmit multimedia messages', 'No ability to transmit multilingual messages'], 'One major benefit is that it is not an &ldquo;opt-in service&rdquo; and can be delivered to anyone with a cell phone located in a target hazard area. (Whether or not you are a local resident or visitor).'], %>
-    <% links: ['https://www.buzzfeed.com/briannasacks/as-wildfires-rip-through-southern-california-heres-how?utm_term=.dvBddQmOW#.nyONNwboD', 'http://www.govtech.com/em/disaster/-Wildfires-Emphasize-Need-to-Improve-Emergency-Alert-Systems.html', 'https://www.telecompaper.com/news/swiss-government-plans-to-upgrade-civil-emergency-system--1223144'] %>
+  <% main_text: 'Challenge #3: We’re not hearing the conversations outside of our own bubbles.', %>
+  <% detail_paragraphs: [<<L1
+<h3 class="subheading">Project #5: The Stories We Tell Ourselves</h3>
+<ul class="projects">
+  <li>Focus: </li>
+  <ul>
+  	<li>Top trending topics on the left and the right</li>
+  </ul>
+  <li>High-level goals: </li>
+  <ul>
+  	<li>To show the most talked-about stories on the other side of the spectrum</li>
+  	<li>To highlight common threads in those stories—words, phrases, subjects</li>
+  </ul>
+  <li>Data APIs available: </li>
+  <ul>
+  	<li>Participants will be able to query a endpoint to fetch articles (Spectrum)</li>
+  	<li>Articles can be tagged with engagement counts to measure buzz (Feedly)</li>
+  </ul>
+  <li>Specific deliverables:</li>
+  <ul>
+  	<li>A list of top trending articles for different publications/biases</li>
+  	<li>Word clouds or other presentation of common words found in specific biases</li>
+  	<li>Topical classifications of those publications/biases</li>
+  </ul>
+  <li>Example team constitution:</li>
+  <ul>
+  	<li>Web/API engineer (x2)	- for fetching stories, integrating article buzz</li>
+  	<li>Frontend developer 	- for interface for showing top topics</li>
+  	<li>Designer		- for designing interface</li>
+  	<li>Policy/media expert	- to vet outputs, identify topical classifications</li>
+  	<li>ML/NLP engineer (x2) 	- to identify topics of publications</li>
+  	<li>Data visualization eng	- to create visualizations of words/topics/threads</li>
+  </ul>
+  <li>Example output:</li>
+  <ul>
+    <li>Right:</li>
+    <ul>
+      <li>Al Franken (17 articles in past day) - “resign”, “Weinstein”</li>
+      <li>Uranium One (10 articles in past day) - “scandal”, “illegal”</li>
+    </ul>
+    <li>Left:</li>
+    <ul>
+      <li>Roy Moore (10 articles in past day) - “Doug Jones”, “victims”</li>
+      <li>Taxes (20 articles in past day) - “wealthy”, “unfair”</li>
+    </ul>
+  </ul>
+</ul>
+<h3 class="subheading">Project #6: Fighting Flames</h3>
+<ul class="projects">
+  <li>Focus: </li>
+  <ul>
+  	<li>Internet comments</li>
+  </ul>
+  <li>High-level goals: </li>
+  <ul>
+  	<li>To shed light on the dark world of internet comments</li>
+  	<li>To explore comments as an opportunity for mindful empathy instead of hostility</li>
+  </ul>
+  <li>Data APIs available: </li>
+  <ul>
+  	<li>Participants will be able to query an endpoint with comments (Spectrum)</li>
+  	<li>The comment post content, publisher info, and other metadata will be available</li>
+  </ul>
+  <li>Specific deliverables:</li>
+  <ul>
+  	<li>Open-ended - could be interactive (engaging commenter) or artistic</li>
+  	<li>Any tool that provokes thought about comments and polarization</li>
+  </ul>
+  <li>Example team constitution:</li>
+  <ul>
+  	<li>Artist/creative/designer	- for ideation of how to deliver this information</li>
+  	<li>Frontend developer	- for creating the interface</li>
+  	<li>Community/social mktr	- to develop interactions/comment content</li>
+  	<li>Data scientist/NLP eng	- sentiment analysis</li>
+  	<li>Full-stack developer	- to gather data from API</li>
+  	<li>Data visualization eng	- for word clouds, frequency charts, other visualizations</li>
+  </ul>
+  <li>Example approaches: </li>
+  <ul>
+    <li>Artistic/interactive: You get a random negative comment from somewhere on the web and you are invited to respond to it without anger or negativity (response doesn’t have to actually get posted/go someplace)</li>
+    <li>Artistic/noninteractive: Presentation of hateful comments juxtaposed against pictures of commenters as real human beings</li>
+    <li>Artistic/humorous: Mock juxtaposition of highly emotional comments from different sources to form a faux ‘conversion’</li>
+    <li>Pragmatic/noninteractive: Word clouds with top words from comments</li>
+  </ul>
+</ul>
+L1
+  ], %>
+  <% links: [] %>
+  <% }, %>
+  <% { %>
+  <% main_text: 'Challenge #4: We don’t have time to see the whole picture.', %>
+  <% detail_paragraphs: [<<L1
+<h3 class="subheading">Project #7: The Message Is The Media</h3>
+<ul class="projects">
+  <li>Focus: </li>
+  <ul>
+    <li>Identify similarities and unique differences across articles on a topic</li>
+  </ul>
+  <li>High-level goals: </li>
+  <ul>
+    <li>To compare two articles against each other OR</li>
+    <li>To allow users to rapidly get a quicker picture of a story across many sources</li>
+    <li>To show key points/language/images the articles add to the overall picture</li>
+  </ul>
+  <li>Spectrum data API: </li>
+  <ul>
+    <li>Participants will be able to query an endpoint for articles (Spectrum)</li>
+    <li>Article content, title, images, etc will all be available</li>
+  </ul>
+  <li>Specific deliverables:</li>
+  <ul>
+    <li>Input two articles and generate report on differences of language, tone, etc OR</li>
+    <li>Generate auto-summarization method for articles OR</li>
+    <li>Show key details of multiple articles, rapidly scannable (e.g. carousel) </li>
+  </ul>
+  <li>Example team constitution:</li>
+  <ul>
+    <li>UI/UX designer		- for design of comparison or carousel</li>
+    <li>Visualization designer	- to design visualizations of similarity/difference output</li>
+    <li>Visualization engineer	- to implement the visualization of similarity/difference</li>
+    <li>Frontend engineer	- to create interface for comparison or carousel</li>
+    <li>NLP eng/Data scientist	- to identify key points of an article, similarity algorithm</li>
+  </ul>
+  <li>Example approaches: </li>
+  <ul>
+    <li>Scrolling carousel of article images that can be quickly scanned through to see various key opinions from each article.</li>
+    <li>Tax reform</li>
+    <li>The Week</li>
+    <li>“The bill is also not as bad as its hysterical critics want you to think.”</li>
+    <li>The Hill</li>
+    <li>“What is now discussed doesn’t come close to being real tax reform. What it does qualify as is a grab bag of goodies for the uberwealthy”</li>
+    <li>National Review</li>
+    <li>“Conservatives should not ignore the importance of keeping the federal deficit under control, nor the risks of repealing the mandate without broad-based health care reform.”</li>
+  </ul>
+</ul>
+<h3 class="subheading">Project #8: The Personal Touch</h3>
+<ul class="projects">
+  <li>Focus: </li>
+  <ul>
+  	<li>Increase engagement on spectrum through personalized recommended stories</li>
+  </ul>
+  <li>High-level goals: </li>
+  <ul>
+  	<li>To recommend news article to reader after exploring the first topic OR</li>
+  	<li>Generate personalized news reading list given a specific article a user has read</li>
+  </ul>
+  <li>Data: </li>
+  <ul>
+  	<li>Participants will get associated article data (Spectrum)</li>
+  </ul>
+  <li>Specific deliverables:</li>
+  <ul>
+  	<li>Input article and get recommended article based on similarity measure</li>
+  </ul>
+  <li>Example team constitution:</li>
+  <ul>
+  	<li>UI/UX designer		- to design user action flow</li>
+  	<li>Frontend engineer	- to create playlist of next potential news</li>
+  	<li>NLP eng/Data scientist	- to identify key points of an article, similarity algorithm</li>
+  	<li>ML eng/Data scientist	- to implement CF or CBR models</li>
+  </ul>
+</ul>
+L1
+  ], %>
+  <% links: [] %>
   <% } %>
 <% ] %>
 
-<% reference_material_links = ['https://www.fema.gov/frequently-asked-questions-wireless-emergency-alerts', 'https://apps.fcc.gov/edocs_public/attachmatch/FCC-16-127A1.pdf'] %>
+<% reference_material_links = [] %>
 
-<% data_source_links = ['https://www.bigdatahubs.io/resources/', 'https://www.data.gov/disasters-legacy', 'https://datasf.org/opendata/', 'https://www.flickr.com/groups/qgis/pool/', 'http://gif.berkeley.edu/resources/data_subject.html', 'http://www.conservation.ca.gov/cgs/geologic_hazards/Tsunami/Inundation_Maps#Interactive', 'http://www.sfei.org/sfeidata.htm', 'https://library.stanford.edu/research/stanford-geospatial-center/additional-resources', 'http://resilience.abag.ca.gov/open-data/', 'https://www.usgs.gov/products/data-and-tools/gis-data'] %>
+<% data_source_links = [] %>
 
 <div class="container">
   <%= partial "partials/tech_plus_header", locals: {title: "Track 3: Media: Clicks vs Credibility"} %>
