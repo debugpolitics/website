@@ -14,12 +14,14 @@
       <% end %>
       <p><span></span></p>
     <% end %>
+    <% if (challenge[:links].length > 0) %>
     <p><h3 class="tech-plus" id="tech-plus-title">Links of interest:</h3></p>
     <ul>
       <% challenge[:links].each do |link| %>
         <li><span><a href="<%= link %>"><%= link %></a></span></li>
       <% end %>
     </ul>
+    <% end %>
     <p><span></span></p>
     <p><span></span></p>
   <% end %>

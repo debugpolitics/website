@@ -1,3 +1,13 @@
 ul.sq {
   list-style-type: square;
 }
+
+ul.projects li {
+  font-weight: 900;
+  font-size: 125%;
+}
+
+ul.projects ul > li {
+  font-weight: 400;
+  font-size: 100%;
+}
