@@ -1,0 +1,15 @@
+<td>
+  <% content.each do |cell| %>
+    <% if (cell[:image].nil?) %>
+      <div class="luminary-placeholder"><%= cell[:placeholder] %></div>
+      <% labelInfo = cell[:label] || "" %>
+      <div><%= labelInfo %></div>
+    <% else %>
+      <div class="luminary-background">
+        <div class="luminary-picture" style="<%="background: url('/images/#{cell[:image]}') no-repeat #{cell[:horizontal_center] ? "center" : "left"} center" %>"></div>
+      </div>
+      <% labelInfo = cell[:label] || "" %>
+      <div><%= labelInfo %></div>
+    <% end %>
+  <% end %>
+</td>

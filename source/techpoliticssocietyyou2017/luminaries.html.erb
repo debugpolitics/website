@@ -1,9 +1,79 @@
+<% luminaries = { %>
+  <% #judges: [ %>
+    <% #{ placeholder: "Judge", image: nil, options: {} }, %>
+    <% #{ placeholder: "Judge", image: nil, options: {} }, %>
+    <% #{ placeholder: "Judge", image: nil, options: {} }, %>
+    <% #{ placeholder: "Judge", image: nil, options: {} } %>
+  <% #], %>
+  <% track_names: [ %>
+    <% { placeholder: "+Crisis", image: nil, options: { header: true } }, %>
+    <% { placeholder: "+Democracy", image: nil, options: { header: true } }, %>
+    <% { placeholder: "+Media", image: nil, options: { header: true } }, %>
+    <% { placeholder: "+Society", image: nil, options: { header: true } } %>
+  <% ], %>
+  <% track_leads: [ %>
+    <% [{ placeholder: "+Crisis leads", image: 'alicia_johnson.jpg', label: "Alicia Johnson", options: {} }, { placeholder: "+Crisis leads", image: 'michelle_geddes.jpg', label: "Michelle Geddes", options: {} }], %>
+    <% [{ placeholder: "+Democracy leads", image: 'charles_belle.jpeg', label: "Charles Belle" }], %>
+    <% [{ placeholder: "+Media leads", image: 'aviv_ovadya.jpg', label: "Aviv Ovadya" }], %>
+    <% [{ placeholder: "+Society leads", image: 'jonathan_hung.png', label: "Jonathan Hung" }, { placeholder: "+Society leads", image: 'julia_kramer.png', label: "Julia Kramer", horizontal_center: true }] %>
+  <% ], %>
+  <% challenge_partner_logos: [ %>
+    <% [{ placeholder: "+Crisis logo", image: 'sfdem.jpg', label: "", horizontal_center: true }], %>
+    <% [{ placeholder: "+Democracy logo", image: 'everyone_counts.jpg', label: "", horizontal_center: true }], %>
+    <% [{ placeholder: "+Media logo", image: 'spectrum_logo.png', label: "" }], %>
+    <% [{ placeholder: "+Society logo", image: 'st_francis_homelessness.png', label: ""}, { placeholder: "+Society logo", image: 'rdc.jpg', label: "" }] %>
+  <% ], %>
+  <% challenge_partner_rep_pics: [ %>
+    <% { placeholder: "+Crisis lightening lectures", image: 'neil_bregman.jpg', label: "Neil Bregman", options: {} }, %>
+    <% { placeholder: "+Democracy leads", image: 'e_john_seebs.jpeg', label: "John Sebes", options: {} }, %>
+    <% { placeholder: "+Media rep pic", image: 'spectrum_media_rep.jpg',label: "Spectrum", options: {} }, %>
+    <% { placeholder: "+Society rep pic", image: 'amy_farah_weiss.png', label: "Amy Farah Weiss", options: {} } %>
+  <% ], %>
+  <% lightening: [ %>
+    <% [{ placeholder: "+Crisis lightening lectures", image: 'meredith_lee.jpg', label: "Meredith Lee", horizontal_center: true }], %>
+    <% [{ placeholder: "+Democracy lightening lectures", image: 'david_chiu.png', label: "David Chiu", options: {} }, { placeholder: "+Democracy lightening lectures", image: nil, label: "Democracy Ligthening Speaker", options: {} }, { placeholder: "+Democracy lightening lectures", image: 'chris_worman.jpg', label: "Chris Worman", options: {} }], %>
+    <% [{ placeholder: "+Media lightening lectures", image: 'john_pettus.jpg', label: "John Pettus", options: {} }, { placeholder: "+Media lightening lectures", image: 'shauna_wright.jpeg', label: "Shauna Wright", options: {} }], %>
+    <% [{ placeholder: "+Society lightening lectures", image: 'elyce_haut.png', label: "Elyce Haut", options: {} }, { placeholder: "+Society lightening lectures", image: 'michael_rouppet.png', label: "Michael Rouppet", options: {} }] %>
+  <% ], %>
+<% } %>
+<% panel_placeholders = [ %>
+  <% { placeholder: "Tech Plus Panel 1", image: nil, label: "", options: { compressed: true } }, %>
+  <% { placeholder: "Tech Plus Panel 2", image: nil, label: "", options: { compressed: true } }, %>
+  <% { placeholder: "Tech Plus Panel 3", image: nil, label: "", options: { compressed: true } }, %>
+  <% { placeholder: "Tech Plus Panel 4", image: nil, label: "", options: { compressed: true } }, %>
+  <% { placeholder: "Tech Plus Panel 5", image: nil, label: "", options: { compressed: true } }, %>
+  <% { placeholder: "Tech Plus Panel 6", image: nil, label: "", options: { compressed: true } }, %>
+<% ] %>
+
 <div class="container">
   <%= partial "partials/tech_plus_header", locals: {title: "Luminaries"} %>
-  <p class="center">
-    Bookmark this page and also watch Facebook, Twitter, and Instagram<br />
-    for programming updates and speaker confirmations.
-  </p>
+  <table style="width: 100%">
+    <% luminaries.keys.each do |key| %>
+      <% if (luminaries[key].first.is_a?(Hash)) %>
+        <tr class="center">
+          <% luminaries[key].each do |luminary_attrs| %>
+            <%= partial "partials/luminary_row", locals: luminary_attrs %>
+          <% end %>
+        </tr>
+      <% elsif (luminaries[key].first.is_a?(Array)) %>
+        <tr class="center" id="<% "#{key}" %>">
+          <% luminaries[key].each do |content_arr| %>
+            <%= partial "partials/luminary_column", locals: { content: content_arr } %>
+          <% end %>
+        </tr>
+      <% end %>
+    <% end %>
+  </table>
+  <table style="width: 100%">
+    <tr class="center">
+      <% panel_placeholders.each do |panel_attrs| %>
+        <% puts panel_attrs %>
+        <%= partial "partials/luminary_row", locals: panel_attrs %>
+      <% end %>
+    </tr>
+  </table>
+      
+    
   <%= partial "partials/more_about_tech_plus", locals: { current_page: "luminaries" } %>
   <!-- <%= partial "partials/apply_button" %> -->
   <%= partial "partials/partners_and_sponsors" %>
