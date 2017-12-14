@@ -1,51 +1,8 @@
 <% require 'date' %>
 <%
-  events = [
-    {
-      location: "Tech + Politics + Society + You 2017",
-      date: "December 8th-10th",
-      href: "/techpoliticssocietyyou2017",
-      status: "Details",
-      id: 'tpsy',
-      ends: 'December 10 2017'
-    },
-    {
-       location: "Los Angeles Hackathon",
-       date: "April 28th-30th",
-       href: "https://www.facebook.com/debugpolitics/videos/461211447551893/",
-       status: "Demos",
-       id: 'la',
-       ends: 'April 30 2016'
-    },
-    {
-       location: "New York Hackathon",
-       date: "January 13th-15h",
-       href: "https://www.facebook.com/debugpolitics/videos/408215309518174/",
-       status: "Demos",
-       id: 'boston',
-       ends: 'January 15th 2016'
-    },
-    {
-       location: "San Francisco II Hackathon",
-       date: "December 10th-11th",
-       href: "https://www.facebook.com/debugpolitics/videos/391124837893888/",
-       status: "Demos",
-       id: 'la',
-       ends: 'December 11th 2016'
-    },
-    {
-       location: "San Francisco Hackathon",
-       date: "November 29th-30th",
-       href: "https://www.facebook.com/debugpolitics/videos/384612628545109/",
-       status: "Demos",
-       id: 'la',
-       ends: 'November 30th 2016'
-    }
-  ]
-
   today = Date.today()
   unexpired = []
-  events.each do |event|
+  data.events.events.each do |event|
     endDate = Date.parse(event[:ends])
     if endDate >= today
       unexpired.push(event)
