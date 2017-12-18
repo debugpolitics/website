@@ -159,6 +159,10 @@ ul.links {
   color: #b7b7b7;
 }
 
+.dp-past-event {
+  filter: grayscale(90%);
+}
+
 .dp-event:not(:nth-child(2)) {
   filter: grayscale(90%);
 }

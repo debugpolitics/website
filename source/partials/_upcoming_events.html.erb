@@ -9,14 +9,28 @@
     end
   end
 
-  unexpired = [unexpired[0]] if only_last and unexpired.length > 0
+  if only_last
+    if unexpired.length > 0
+      events = [unexpired[0]]
+    else
+      events = []
+    end
+  else
+    events = data.events.events
+  end
 %>
 
 <div class="container" id="upcoming-events">
-  <% if unexpired.length > 0 %>
+  <% if events.length > 0 %>
     <h2 class="underlined-heading">Events</h2>
-    <% unexpired.each do |event| %>
-      <div class="dp-event" id="<%= event[:id] %>-event">
+    <% events.each do |event| %>
+      <% dpClass=""
+         endDate = Date.parse(event[:ends])
+         if endDate < today
+           dpClass = "dp-past-event"
+         end
+      %>
+      <div class="dp-event <%= dpClass %>" id="<%= event[:id] %>-event">
         <p class="event-date"><%= event[:date] %></p>
         <p class="event-name"><%= event[:location] %></p>
         <% if event[:href] %>
