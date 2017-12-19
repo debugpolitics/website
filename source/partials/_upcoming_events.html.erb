@@ -33,9 +33,10 @@
       <div class="dp-event <%= dpClass %>" id="<%= event[:id] %>-event">
         <p class="event-date"><%= event[:date] %></p>
         <p class="event-name"><%= event[:location] %></p>
-        <% if event[:href] %>
-        <p><a href="<%= event[:href] %>" class="btn btn-secondary"><%= event[:status] %></a></p>
-        <% end %>
+        <p><% event[:status].each do |status| %>
+        <a href="<%= status["href"] %>"
+          class="btn btn-secondary" style="margin-left: 30px; margin-right: 30px"><%= status["label"] %></a>
+        <% end %></p>
       </div>
     <% end %>
   <% end %>
